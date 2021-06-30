@@ -1,0 +1,605 @@
+[
+  {
+    "fu"         : "Phi",
+    "id"         : 0,
+    "org_opt"    : "phi",
+    "JSON_opt"   : "OPT_PHI",
+    "in_const"   : [0],
+    "pre"         : [4],
+    "succ"       : [[1,6,9,18,27,36,45,54,63,72]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 1,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [0],
+    "succ"       : [[2,5]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 2,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [1],
+    "succ"       : [[3]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 3,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [2],
+    "succ"       : [[4]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 4,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [72,3],
+    "succ"       : [[0]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 5,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [1],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 6,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [0],
+    "succ"       : [[7]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 7,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [6],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 9,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[10,15]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 10,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [9],
+    "succ"       : [[11,14]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 11,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [10],
+    "succ"       : [[12]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 12,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [11],
+    "succ"       : [[13]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 13,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [12],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 14,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [10],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 15,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [9],
+    "succ"       : [[16]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 16,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [15],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 18,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[19,24]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 19,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [18],
+    "succ"       : [[20,23]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 20,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [19],
+    "succ"       : [[21]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 21,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [20],
+    "succ"       : [[22]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 22,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [21],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 23,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [19],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 24,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [18],
+    "succ"       : [[25]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 25,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [24],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 27,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[28,33]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 28,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [27],
+    "succ"       : [[29,32]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 29,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [28],
+    "succ"       : [[30]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 30,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [29],
+    "succ"       : [[31]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 31,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [30],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 32,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [28],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 33,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [27],
+    "succ"       : [[34]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 34,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [33],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 36,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[37,42]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 37,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [36],
+    "succ"       : [[38,41]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 38,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [37],
+    "succ"       : [[39]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 39,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [38],
+    "succ"       : [[40]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 40,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [39],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 41,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [37],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 42,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [36],
+    "succ"       : [[43]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 43,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [42],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 45,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[46,51]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 46,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [45],
+    "succ"       : [[47,50]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 47,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [46],
+    "succ"       : [[48]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 48,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [47],
+    "succ"       : [[49]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 49,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [48],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 50,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [46],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 51,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [45],
+    "succ"       : [[52]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 52,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [51],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 54,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[55,60]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 55,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [54],
+    "succ"       : [[56,59]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 56,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [55],
+    "succ"       : [[57]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 57,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [56],
+    "succ"       : [[58]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 58,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [57],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 59,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [55],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 60,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [54],
+    "succ"       : [[61]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 61,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [60],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 63,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[64,69]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 64,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1,2],
+    "pre"         : [63],
+    "succ"       : [[65,68]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 65,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [64],
+    "succ"       : [[66]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 66,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [65],
+    "succ"       : [[67]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 67,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [66],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 68,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [64],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 69,
+    "org_opt"    : "trunc",
+    "JSON_opt"   : "Unfamiliar: trunc",
+    "in_const"   : [],
+    "pre"         : [63],
+    "succ"       : [[70]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 70,
+    "org_opt"    : "call",
+    "JSON_opt"   : "Unfamiliar: call",
+    "in_const"   : [0],
+    "pre"         : [69],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 72,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[73,4]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 73,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [72],
+    "succ"       : [[74]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 74,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [73],
+    "succ"       : [[]]
+  }
+]

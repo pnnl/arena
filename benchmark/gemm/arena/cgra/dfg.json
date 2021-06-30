@@ -1,0 +1,2072 @@
+[
+  {
+    "fu"         : "Phi",
+    "id"         : 0,
+    "org_opt"    : "phi",
+    "JSON_opt"   : "OPT_PHI",
+    "in_const"   : [0],
+    "pre"         : [22],
+    "succ"       : [[1,30,59,88,117,146,175,204,237]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 1,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[2,3,6]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 2,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [1],
+    "succ"       : [[4]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 3,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [1],
+    "succ"       : [[8]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 4,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [2],
+    "succ"       : [[5]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 5,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [4],
+    "succ"       : [[13]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 6,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [1],
+    "succ"       : [[9,21]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 7,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[12,41,70,99,128,157,186,215]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 8,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [3],
+    "succ"       : [[10,17,23]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 9,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [6],
+    "succ"       : [[10,14]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 10,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [8,9],
+    "succ"       : [[11]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 11,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [10],
+    "succ"       : [[12]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 12,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [11,7],
+    "succ"       : [[16]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 13,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [5],
+    "succ"       : [[14,17,23]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 14,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [13,9],
+    "succ"       : [[15]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 15,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [14],
+    "succ"       : [[16]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 16,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [12,15],
+    "succ"       : [[19]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 17,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [8,13],
+    "succ"       : [[18,20,28]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 18,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [17],
+    "succ"       : [[19]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 19,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [18,16],
+    "succ"       : [[20,27]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 20,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [19,17],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 21,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [6],
+    "succ"       : [[22]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 22,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [237,21],
+    "succ"       : [[0]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 23,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [8,13],
+    "succ"       : [[24]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 24,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [23],
+    "succ"       : [[26]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 25,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[26]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 26,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [25,24],
+    "succ"       : [[27]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 27,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [26,19],
+    "succ"       : [[28]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 28,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [27,17],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 30,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[31]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 31,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [30],
+    "succ"       : [[32,33,36]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 32,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [31],
+    "succ"       : [[34]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 33,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [31],
+    "succ"       : [[37]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 34,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [32],
+    "succ"       : [[35]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 35,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [34],
+    "succ"       : [[42]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 36,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [31],
+    "succ"       : [[38,50]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 37,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [33],
+    "succ"       : [[39,46,52]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 38,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [36],
+    "succ"       : [[39,43]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 39,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [37,38],
+    "succ"       : [[40]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 40,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [39],
+    "succ"       : [[41]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 41,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [40,7],
+    "succ"       : [[45]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 42,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [35],
+    "succ"       : [[43,46,52]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 43,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [42,38],
+    "succ"       : [[44]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 44,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [43],
+    "succ"       : [[45]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 45,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [41,44],
+    "succ"       : [[48]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 46,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [37,42],
+    "succ"       : [[47,49,57]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 47,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [46],
+    "succ"       : [[48]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 48,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [47,45],
+    "succ"       : [[49,56]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 49,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [48,46],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 50,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [36],
+    "succ"       : [[51]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 51,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [50],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 52,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [37,42],
+    "succ"       : [[53]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 53,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [52],
+    "succ"       : [[55]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 54,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[55]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 55,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [54,53],
+    "succ"       : [[56]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 56,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [55,48],
+    "succ"       : [[57]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 57,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [56,46],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 59,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[60]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 60,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [59],
+    "succ"       : [[61,62,65]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 61,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [60],
+    "succ"       : [[63]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 62,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [60],
+    "succ"       : [[66]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 63,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [61],
+    "succ"       : [[64]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 64,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [63],
+    "succ"       : [[71]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 65,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [60],
+    "succ"       : [[67,79]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 66,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [62],
+    "succ"       : [[68,75,81]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 67,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [65],
+    "succ"       : [[68,72]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 68,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [66,67],
+    "succ"       : [[69]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 69,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [68],
+    "succ"       : [[70]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 70,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [69,7],
+    "succ"       : [[74]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 71,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [64],
+    "succ"       : [[72,75,81]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 72,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [71,67],
+    "succ"       : [[73]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 73,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [72],
+    "succ"       : [[74]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 74,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [70,73],
+    "succ"       : [[77]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 75,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [66,71],
+    "succ"       : [[76,78,86]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 76,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [75],
+    "succ"       : [[77]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 77,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [76,74],
+    "succ"       : [[78,85]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 78,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [77,75],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 79,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [65],
+    "succ"       : [[80]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 80,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [79],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 81,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [66,71],
+    "succ"       : [[82]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 82,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [81],
+    "succ"       : [[84]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 83,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[84]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 84,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [83,82],
+    "succ"       : [[85]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 85,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [84,77],
+    "succ"       : [[86]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 86,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [85,75],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 88,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[89]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 89,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [88],
+    "succ"       : [[90,91,94]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 90,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [89],
+    "succ"       : [[92]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 91,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [89],
+    "succ"       : [[95]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 92,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [90],
+    "succ"       : [[93]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 93,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [92],
+    "succ"       : [[100]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 94,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [89],
+    "succ"       : [[96,108]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 95,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [91],
+    "succ"       : [[97,104,110]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 96,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [94],
+    "succ"       : [[97,101]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 97,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [95,96],
+    "succ"       : [[98]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 98,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [97],
+    "succ"       : [[99]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 99,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [98,7],
+    "succ"       : [[103]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 100,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [93],
+    "succ"       : [[101,104,110]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 101,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [100,96],
+    "succ"       : [[102]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 102,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [101],
+    "succ"       : [[103]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 103,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [99,102],
+    "succ"       : [[106]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 104,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [95,100],
+    "succ"       : [[105,107,115]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 105,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [104],
+    "succ"       : [[106]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 106,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [105,103],
+    "succ"       : [[107,114]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 107,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [106,104],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 108,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [94],
+    "succ"       : [[109]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 109,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [108],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 110,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [95,100],
+    "succ"       : [[111]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 111,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [110],
+    "succ"       : [[113]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 112,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[113]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 113,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [112,111],
+    "succ"       : [[114]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 114,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [113,106],
+    "succ"       : [[115]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 115,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [114,104],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 117,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[118]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 118,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [117],
+    "succ"       : [[119,120,123]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 119,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [118],
+    "succ"       : [[121]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 120,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [118],
+    "succ"       : [[124]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 121,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [119],
+    "succ"       : [[122]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 122,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [121],
+    "succ"       : [[129]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 123,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [118],
+    "succ"       : [[125,137]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 124,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [120],
+    "succ"       : [[126,133,139]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 125,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [123],
+    "succ"       : [[126,130]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 126,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [124,125],
+    "succ"       : [[127]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 127,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [126],
+    "succ"       : [[128]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 128,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [127,7],
+    "succ"       : [[132]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 129,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [122],
+    "succ"       : [[130,133,139]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 130,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [129,125],
+    "succ"       : [[131]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 131,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [130],
+    "succ"       : [[132]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 132,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [128,131],
+    "succ"       : [[135]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 133,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [124,129],
+    "succ"       : [[134,136,144]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 134,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [133],
+    "succ"       : [[135]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 135,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [134,132],
+    "succ"       : [[136,143]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 136,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [135,133],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 137,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [123],
+    "succ"       : [[138]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 138,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [137],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 139,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [124,129],
+    "succ"       : [[140]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 140,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [139],
+    "succ"       : [[142]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 141,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[142]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 142,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [141,140],
+    "succ"       : [[143]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 143,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [142,135],
+    "succ"       : [[144]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 144,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [143,133],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 146,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[147]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 147,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [146],
+    "succ"       : [[148,149,152]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 148,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [147],
+    "succ"       : [[150]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 149,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [147],
+    "succ"       : [[153]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 150,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [148],
+    "succ"       : [[151]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 151,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [150],
+    "succ"       : [[158]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 152,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [147],
+    "succ"       : [[154,166]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 153,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [149],
+    "succ"       : [[155,162,168]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 154,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [152],
+    "succ"       : [[155,159]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 155,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [153,154],
+    "succ"       : [[156]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 156,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [155],
+    "succ"       : [[157]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 157,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [156,7],
+    "succ"       : [[161]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 158,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [151],
+    "succ"       : [[159,162,168]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 159,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [158,154],
+    "succ"       : [[160]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 160,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [159],
+    "succ"       : [[161]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 161,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [157,160],
+    "succ"       : [[164]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 162,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [153,158],
+    "succ"       : [[163,165,173]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 163,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [162],
+    "succ"       : [[164]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 164,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [163,161],
+    "succ"       : [[165,172]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 165,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [164,162],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 166,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [152],
+    "succ"       : [[167]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 167,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [166],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 168,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [153,158],
+    "succ"       : [[169]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 169,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [168],
+    "succ"       : [[171]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 170,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[171]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 171,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [170,169],
+    "succ"       : [[172]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 172,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [171,164],
+    "succ"       : [[173]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 173,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [172,162],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 175,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[176]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 176,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [175],
+    "succ"       : [[177,178,181]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 177,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [176],
+    "succ"       : [[179]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 178,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [176],
+    "succ"       : [[182]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 179,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [177],
+    "succ"       : [[180]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 180,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [179],
+    "succ"       : [[187]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 181,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [176],
+    "succ"       : [[183,195]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 182,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [178],
+    "succ"       : [[184,191,197]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 183,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [181],
+    "succ"       : [[184,188]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 184,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [182,183],
+    "succ"       : [[185]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 185,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [184],
+    "succ"       : [[186]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 186,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [185,7],
+    "succ"       : [[190]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 187,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [180],
+    "succ"       : [[188,191,197]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 188,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [187,183],
+    "succ"       : [[189]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 189,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [188],
+    "succ"       : [[190]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 190,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [186,189],
+    "succ"       : [[193]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 191,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [182,187],
+    "succ"       : [[192,194,202]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 192,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [191],
+    "succ"       : [[193]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 193,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [192,190],
+    "succ"       : [[194,201]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 194,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [193,191],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 195,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [181],
+    "succ"       : [[196]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 196,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [195],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 197,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [182,187],
+    "succ"       : [[198]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 198,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [197],
+    "succ"       : [[200]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 199,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[200]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 200,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [199,198],
+    "succ"       : [[201]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 201,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [200,193],
+    "succ"       : [[202]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 202,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [201,191],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Logic",
+    "id"         : 204,
+    "org_opt"    : "or",
+    "JSON_opt"   : "OPT_OR",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[205,233]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 205,
+    "org_opt"    : "sub",
+    "JSON_opt"   : "OPT_SUB",
+    "in_const"   : [0],
+    "pre"         : [204],
+    "succ"       : [[206,207,210]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 206,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [205],
+    "succ"       : [[208]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 207,
+    "org_opt"    : "sdiv",
+    "JSON_opt"   : "Unfamiliar: sdiv",
+    "in_const"   : [0],
+    "pre"         : [205],
+    "succ"       : [[211]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 208,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [206],
+    "succ"       : [[209]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 209,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [208],
+    "succ"       : [[216]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 210,
+    "org_opt"    : "srem",
+    "JSON_opt"   : "Unfamiliar: srem",
+    "in_const"   : [0],
+    "pre"         : [205],
+    "succ"       : [[212,224]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 211,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [207],
+    "succ"       : [[213,220,226]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 212,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [210],
+    "succ"       : [[213,217]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 213,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [211,212],
+    "succ"       : [[214]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 214,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [213],
+    "succ"       : [[215]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 215,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [214,7],
+    "succ"       : [[219]]
+  },
+  {
+    "fu"         : "Unknown",
+    "id"         : 216,
+    "org_opt"    : "sext",
+    "JSON_opt"   : "Unfamiliar: sext",
+    "in_const"   : [],
+    "pre"         : [209],
+    "succ"       : [[217,220,226]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 217,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [216,212],
+    "succ"       : [[218]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 218,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [217],
+    "succ"       : [[219]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 219,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [215,218],
+    "succ"       : [[222]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 220,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [211,216],
+    "succ"       : [[221,223,231]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 221,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [220],
+    "succ"       : [[222]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 222,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [221,219],
+    "succ"       : [[223,230]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 223,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [222,220],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 224,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [210],
+    "succ"       : [[225]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 225,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [224],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 226,
+    "org_opt"    : "getelementptr",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0,1],
+    "pre"         : [211,216],
+    "succ"       : [[227]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 227,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [226],
+    "succ"       : [[229]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 228,
+    "org_opt"    : "load",
+    "JSON_opt"   : "OPT_LD",
+    "in_const"   : [],
+    "pre"         : [],
+    "succ"       : [[229]]
+  },
+  {
+    "fu"         : "Mul",
+    "id"         : 229,
+    "org_opt"    : "mul",
+    "JSON_opt"   : "OPT_MUL",
+    "in_const"   : [],
+    "pre"         : [228,227],
+    "succ"       : [[230]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 230,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [],
+    "pre"         : [229,222],
+    "succ"       : [[231]]
+  },
+  {
+    "fu"         : "MemUnit",
+    "id"         : 231,
+    "org_opt"    : "store",
+    "JSON_opt"   : "OPT_STR",
+    "in_const"   : [],
+    "pre"         : [230,220],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 233,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [204],
+    "succ"       : [[234]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 234,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [233],
+    "succ"       : [[]]
+  },
+  {
+    "fu"         : "Alu",
+    "id"         : 237,
+    "org_opt"    : "add",
+    "JSON_opt"   : "OPT_ADD",
+    "in_const"   : [0],
+    "pre"         : [0],
+    "succ"       : [[238,22]]
+  },
+  {
+    "fu"         : "Comp",
+    "id"         : 238,
+    "org_opt"    : "icmp",
+    "JSON_opt"   : "OPT_EQ",
+    "in_const"   : [0],
+    "pre"         : [237],
+    "succ"       : [[239]]
+  },
+  {
+    "fu"         : "Branch",
+    "id"         : 239,
+    "org_opt"    : "br",
+    "JSON_opt"   : "OPT_BRH",
+    "in_const"   : [],
+    "pre"         : [238],
+    "succ"       : [[]]
+  }
+]
