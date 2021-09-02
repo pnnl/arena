@@ -1,0 +1,31 @@
+[		rowblock sorting]: 0.000160337 s
+[		rowblock sorting]: 0.000160923 s
+[		Set Kernel Ptrs]: 0.000007077 s
+[		Set Kernel Ptrs]: 0.000009355 s
+[		Morton sorting]: 0.000193098 s
+[	HiCOO sorting (Morton)]: 0.000466468 s
+[		Morton sorting]: 0.000210150 s
+[	HiCOO sorting (Morton)]: 0.000478103 s
+[Generate HiCOO]: 0.000029698 s
+Run ptiSparseMatrixMulVectorHiCOO:
+[Generate HiCOO]: 0.000045379 s
+Run ptiSparseMatrixMulVectorHiCOO:
+start row 0, end row 48[		rowblock sorting]: 0.000067247 s
+[		Set Kernel Ptrs]: 0.000003262 s
+start row 48, end row 96[		rowblock sorting]: 0.000071390 s
+[		Set Kernel Ptrs]: 0.000004635 s
+[		Morton sorting]: 0.000094294 s
+[	HiCOO sorting (Morton)]: 0.000208762 s
+[Generate HiCOO]: 0.000016785 s
+matrix size = (85, 85) super block size = (6, 6)
+rank 0, initial addr 0 -- 18
+[		Morton sorting]: 0.000104507 s
+[	HiCOO sorting (Morton)]: 0.000245696 s
+[Generate HiCOO]: 0.000020876 s
+matrix size = (85, 85) super block size = (6, 6)
+rank 1, initial addr 18 -- 36
+[terminate] rank 0
+[terminate] rank 1
+[time] rank 0 elapsed time: 0.000324127s
+[time] rank 1 elapsed time: 0.000329556s
+result pass at rank 1

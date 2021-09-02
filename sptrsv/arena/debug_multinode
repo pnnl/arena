@@ -1,0 +1,2197 @@
+[		rowblock sorting]: 0.158035486 s
+[		Set Kernel Ptrs]: 0.000012337 s
+[		Morton sorting]: 0.000202265 s
+[	HiCOO sorting (Morton)]: 0.158294611 s
+[Generate HiCOO]: 0.000019324 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+[		rowblock sorting]: 0.122755526 s
+[		Set Kernel Ptrs]: 0.000012928 s
+[		Morton sorting]: 0.000234436 s
+[	HiCOO sorting (Morton)]: 0.123050447 s
+[Generate HiCOO]: 0.000017215 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+[		rowblock sorting]: 0.053707242 s
+[		Set Kernel Ptrs]: 0.000013190 s
+[		Morton sorting]: 0.000306809 s
+[	HiCOO sorting (Morton)]: 0.054078668 s
+[Generate HiCOO]: 0.000018157 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+start row 36, end row 48[		rowblock sorting]: 0.000181968 s
+[		Set Kernel Ptrs]: 0.000001792 s
+[		Morton sorting]: 0.000311912 s
+[	HiCOO sorting (Morton)]: 0.000507276 s
+[Generate HiCOO]: 0.000004569 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=46
+ sb=4
+ nb=13
+ nk=13
+ HiCOO-STORAGE=832.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 5
+Nnzk: Max=8, Min=1, Avg=3, Std: 2.3
+ block nnz info:
+ Nnzb: Max=8, Min=1, Avg=3
+ cb: Max=2.000, Min=0.250, Avg=0.750
+ median cb: 0.750, geometric mean cb: 0.690
+ alpha_b: 0.282609
+start row 72, end row 84[		rowblock sorting]: 0.075546009 s
+[		Set Kernel Ptrs]: 0.000002874 s
+[		Morton sorting]: 0.000126267 s
+[	HiCOO sorting (Morton)]: 0.075694409 s
+[Generate HiCOO]: 0.000005386 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=48
+ sb=4
+ nb=13
+ nk=13
+ HiCOO-STORAGE=844.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 5
+Nnzk: Max=8, Min=1, Avg=3, Std: 2.6
+ block nnz info:
+ Nnzb: Max=8, Min=1, Avg=3
+ cb: Max=2.000, Min=0.250, Avg=0.750
+ median cb: 0.750, geometric mean cb: 0.692
+ alpha_b: 0.270833
+start row 12, end row 24[		rowblock sorting]: 0.127432346 s
+[		Set Kernel Ptrs]: 0.000001558 s
+[		Morton sorting]: 0.000305350 s
+[	HiCOO sorting (Morton)]: 0.127749930 s
+[Generate HiCOO]: 0.000003883 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=42
+ sb=4
+ nb=10
+ nk=10
+ HiCOO-STORAGE=724.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 4
+Nnzk: Max=9, Min=1, Avg=4, Std: 2.6
+ block nnz info:
+ Nnzb: Max=9, Min=1, Avg=4
+ cb: Max=2.250, Min=0.250, Avg=1.000
+ median cb: 1.000, geometric mean cb: 0.797
+ alpha_b: 0.238095
+[		rowblock sorting]: 0.125404097 s
+[		Set Kernel Ptrs]: 0.000010712 s
+[		Morton sorting]: 0.000304475 s
+[	HiCOO sorting (Morton)]: 0.125753415 s
+[Generate HiCOO]: 0.000016569 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+[		rowblock sorting]: 0.162200830 s
+[		Set Kernel Ptrs]: 0.000011003 s
+[		Morton sorting]: 0.000262969 s
+[	HiCOO sorting (Morton)]: 0.162514462 s
+[Generate HiCOO]: 0.000018854 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+start row 84, end row 85[		rowblock sorting]: 0.000250732 s
+[		Set Kernel Ptrs]: 0.000000933 s
+[		Morton sorting]: 0.000112847 s
+[	HiCOO sorting (Morton)]: 0.000376401 s
+[Generate HiCOO]: 0.000001024 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=4
+ sb=4
+ nb=3
+ nk=3
+ HiCOO-STORAGE=300.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 3
+Nnzk: Max=2, Min=1, Avg=1, Std: 0.6
+ block nnz info:
+ Nnzb: Max=2, Min=1, Avg=1
+ cb: Max=0.500, Min=0.250, Avg=0.250
+ median cb: 0.250, geometric mean cb: 0.315
+ alpha_b: 0.750000
+start row 0, end row 12[		rowblock sorting]: 0.000165183 s
+[		Set Kernel Ptrs]: 0.000001254 s
+[		Morton sorting]: 0.000591051 s
+[	HiCOO sorting (Morton)]: 0.000768440 s
+[Generate HiCOO]: 0.000002992 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=34
+ sb=4
+ nb=6
+ nk=6
+ HiCOO-STORAGE=564.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 3
+Nnzk: Max=8, Min=2, Avg=5, Std: 2.0
+ block nnz info:
+ Nnzb: Max=8, Min=2, Avg=5
+ cb: Max=2.000, Min=0.500, Avg=1.250
+ median cb: 1.500, geometric mean cb: 1.304
+ alpha_b: 0.176471
+[		rowblock sorting]: 0.097096074 s
+[		Set Kernel Ptrs]: 0.000010567 s
+[		Morton sorting]: 0.000302338 s
+[	HiCOO sorting (Morton)]: 0.097449692 s
+[Generate HiCOO]: 0.000016606 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+start row 60, end row 72[		rowblock sorting]: 0.001601843 s
+[		Set Kernel Ptrs]: 0.000001826 s
+[		Morton sorting]: 0.000385600 s
+[	HiCOO sorting (Morton)]: 0.002000420 s
+[Generate HiCOO]: 0.000004708 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=44
+ sb=4
+ nb=14
+ nk=14
+ HiCOO-STORAGE=848.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 5
+Nnzk: Max=7, Min=1, Avg=3, Std: 2.1
+ block nnz info:
+ Nnzb: Max=7, Min=1, Avg=3
+ cb: Max=1.750, Min=0.250, Avg=0.750
+ median cb: 0.500, geometric mean cb: 0.621
+ alpha_b: 0.318182
+[		rowblock sorting]: 0.102890205 s
+[		Set Kernel Ptrs]: 0.000010588 s
+[		Morton sorting]: 0.033385575 s
+[	HiCOO sorting (Morton)]: 0.136323593 s
+[Generate HiCOO]: 0.000017267 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+[		rowblock sorting]: 0.125295272 s
+[		Set Kernel Ptrs]: 0.000010305 s
+[		Morton sorting]: 0.000133116 s
+[	HiCOO sorting (Morton)]: 0.125482067 s
+[Generate HiCOO]: 0.000014876 s
+Run ptiSparseMatrixMulVectorHiCOO:
+]
+start row 48, end row 60[		rowblock sorting]: 0.099600135 s
+[		Set Kernel Ptrs]: 0.000002425 s
+[		Morton sorting]: 0.000139919 s
+[	HiCOO sorting (Morton)]: 0.099757772 s
+[Generate HiCOO]: 0.000004964 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=43
+ sb=4
+ nb=10
+ nk=10
+ HiCOO-STORAGE=730.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 4
+Nnzk: Max=9, Min=1, Avg=4, Std: 2.6
+ block nnz info:
+ Nnzb: Max=9, Min=1, Avg=4
+ cb: Max=2.250, Min=0.250, Avg=1.000
+ median cb: 1.000, geometric mean cb: 0.839
+ alpha_b: 0.232558
+start row 24, end row 36[		rowblock sorting]: 0.000126039 s
+[		Set Kernel Ptrs]: 0.000001400 s
+[		Morton sorting]: 0.000160167 s
+[	HiCOO sorting (Morton)]: 0.000297944 s
+[Generate HiCOO]: 0.000003560 s
+HiCOO Sparse Tensor information ---------
+ DIMS=85x85
+ NNZ=43
+ sb=4
+ nb=12
+ nk=12
+ HiCOO-STORAGE=786.00 B
+SCHEDULE INFO [KERNEL]: 
+SCHEDULE : 22 x 5
+Nnzk: Max=8, Min=1, Avg=3, Std: 2.4
+ block nnz info:
+ Nnzb: Max=8, Min=1, Avg=3
+ cb: Max=2.000, Min=0.250, Avg=0.750
+ median cb: 0.750, geometric mean cb: 0.706
+ alpha_b: 0.279070
+matrix size = (85, 85) block size = (22, 22)rank 0, initial addr 0 -- 66rank 0, globle_id 0, bi 0, bj 0, dependency 1
+rank 0 , process block himtx_id 0 at 0, block_nnz_id 0, start_nnz 0, end_nnz 7 
+rank 0, start process nnz 0, row 0, col 0
+solve row 0, b 9.000000, left 0.000000, A 1.000000 
+row 0 done
+rank 0, start process nnz 1, row 1, col 0
+process row 1, nnz 1
+rank 0, start process nnz 2, row 1, col 1
+solve row 1, b 83.000000, left 81.000000, A 1.000000 
+row 1 done
+rank 0, start process nnz 3, row 2, col 1
+process row 2, nnz 3
+rank 0, start process nnz 4, row 2, col 2
+solve row 2, b 26.000000, left 16.000000, A 1.000000 
+row 2 done
+rank 0, start process nnz 5, row 3, col 2
+process row 3, nnz 5
+rank 0, start process nnz 6, row 3, col 3
+solve row 3, b 36.000000, left 30.000000, A 1.000000 
+row 3 done
+block 0 (0, 0) done at rank 0
+spawn all colum at 0: 462 440 418 396 374 352 330 308 286 264 242 220 198 176 154 132 110 88 66 44 22
+receive x at block (2 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 0, globle_id 44, bi 2, bj 0, dependency 1
+rank 0 , process block himtx_id 3 at 44, block_nnz_id 0, start_nnz 18, end_nnz 24 
+rank 0, start process nnz 18, row 8, col 1
+process row 8, nnz 18
+rank 0, start process nnz 19, row 9, col 1
+process row 9, nnz 19
+rank 0, start process nnz 20, row 9, col 2
+process row 9, nnz 20
+rank 0, start process nnz 21, row 9, col 3
+process row 9, nnz 21
+rank 0, start process nnz 22, row 10, col 3
+process row 10, nnz 22
+rank 0, start process nnz 23, row 11, col 3
+process row 11, nnz 23
+block 44 (2, 0) done at rank 0
+spawn to row block from 44 to 45.
+receive x at block (1 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 0, globle_id 22, bi 1, bj 0, dependency 1
+rank 0 , process block himtx_id 1 at 22, block_nnz_id 0, start_nnz 7, end_nnz 12 
+rank 0, start process nnz 7, row 5, col 0
+process row 5, nnz 7
+rank 0, start process nnz 8, row 4, col 3
+process row 4, nnz 8
+rank 0, start process nnz 9, row 6, col 0
+process row 6, nnz 9
+rank 0, start process nnz 10, row 7, col 0
+process row 7, nnz 10
+rank 0, start process nnz 11, row 7, col 1
+process row 7, nnz 11
+block 22 (1, 0) done at rank 0
+spawn to row block from 22 to 23.
+rank 0, globle_id 45, bi 2, bj 1, dependency 1
+rank 0, globle_id 23, bi 1, bj 1, dependency 1
+rank 0 , process block himtx_id 2 at 23, block_nnz_id 0, start_nnz 12, end_nnz 18 
+rank 0, start process nnz 12, row 4, col 4
+solve row 4, b 14.000000, left 6.000000, A 1.000000 
+row 4 done
+rank 0, start process nnz 13, row 5, col 5
+solve row 5, b 81.000000, left 72.000000, A 1.000000 
+row 5 done
+rank 0, start process nnz 14, row 6, col 5
+process row 6, nnz 14
+rank 0, start process nnz 15, row 6, col 6
+solve row 6, b 103.000000, left 99.000000, A 1.000000 
+row 6 done
+rank 0, start process nnz 16, row 7, col 6
+process row 7, nnz 16
+rank 0, start process nnz 17, row 7, col 7
+solve row 7, b 116.000000, left 112.000000, A 1.000000 
+row 7 done
+block 23 (1, 1) done at rank 0
+spawn all colum at 1: 463 441 419 397 375 353 331 309 287 265 243 221 199 177 155 133 111 89 67 45
+receive x at block (2 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 0, globle_id 45, bi 2, bj 1, dependency 2
+rank 0 , process block himtx_id 4 at 45, block_nnz_id 0, start_nnz 24, end_nnz 26 
+rank 0, start process nnz 24, row 8, col 7
+process row 8, nnz 24
+rank 0, start process nnz 25, row 11, col 4
+process row 11, nnz 25
+block 45 (2, 1) done at rank 0
+spawn to row block from 45 to 46.
+rank 0, globle_id 46, bi 2, bj 2, dependency 1
+rank 0 , process block himtx_id 5 at 46, block_nnz_id 0, start_nnz 26, end_nnz 34 
+rank 0, start process nnz 26, row 8, col 8
+solve row 8, b 42.000000, left 40.000000, A 1.000000 
+row 8 done
+rank 0, start process nnz 27, row 9, col 8
+process row 9, nnz 27
+rank 0, start process nnz 28, row 9, col 9
+solve row 9, b 101.000000, left 100.000000, A 1.000000 
+row 9 done
+rank 0, start process nnz 29, row 10, col 8
+process row 10, nnz 29
+rank 0, start process nnz 30, row 10, col 9
+process row 10, nnz 30
+rank 0, start process nnz 31, row 10, col 10
+solve row 10, b 47.000000, left 40.000000, A 1.000000 
+row 10 done
+rank 0, start process nnz 32, row 11, col 10
+process row 11, nnz 32
+rank 0, start process nnz 33, row 11, col 11
+solve row 11, b 91.000000, left 81.000000, A 1.000000 
+row 11 done
+block 46 (2, 2) done at rank 0
+spawn all colum at 2: 464 442 420 398 376 354 332 310 288 266 244 222 200 178 156 134 112 90 68
+matrix size = (85, 85) block size = (22, 22)rank 1, initial addr 66 -- 132receive x at block (5 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 1, globle_id 110, bi 5, bj 0, dependency 1
+block 110 (5, 0) done at rank 1
+spawn to row block from 110 to 111.
+rank 1, globle_id 111, bi 5, bj 1, dependency 1
+receive x at block (4 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 1, globle_id 88, bi 4, bj 0, dependency 1
+block 88 (4, 0) done at rank 1
+spawn to row block from 88 to 89.
+rank 1, globle_id 89, bi 4, bj 1, dependency 1
+receive x at block (3 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 1, globle_id 66, bi 3, bj 0, dependency 1
+block 66 (3, 0) done at rank 1
+spawn to row block from 66 to 67.
+rank 1, globle_id 67, bi 3, bj 1, dependency 1
+receive x at block (5 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 1, globle_id 111, bi 5, bj 1, dependency 2
+rank 1 , process block himtx_id 6 at 111, block_nnz_id 0, start_nnz 27, end_nnz 28 
+rank 1, start process nnz 27, row 22, col 4
+process row 22, nnz 27
+block 111 (5, 1) done at rank 1
+spawn to row block from 111 to 112.
+rank 1, globle_id 112, bi 5, bj 2, dependency 1
+receive x at block (4 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 1, globle_id 89, bi 4, bj 1, dependency 2
+rank 1 , process block himtx_id 2 at 89, block_nnz_id 0, start_nnz 12, end_nnz 13 
+rank 1, start process nnz 12, row 17, col 7
+process row 17, nnz 12
+block 89 (4, 1) done at rank 1
+spawn to row block from 89 to 90.
+rank 1, globle_id 90, bi 4, bj 2, dependency 1
+receive x at block (3 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 1, globle_id 67, bi 3, bj 1, dependency 2
+rank 1 , process block himtx_id 0 at 67, block_nnz_id 0, start_nnz 0, end_nnz 6 
+rank 1, start process nnz 0, row 12, col 5
+process row 12, nnz 0
+rank 1, start process nnz 1, row 13, col 5
+process row 13, nnz 1
+rank 1, start process nnz 2, row 13, col 6
+process row 13, nnz 2
+rank 1, start process nnz 3, row 14, col 6
+process row 14, nnz 3
+rank 1, start process nnz 4, row 15, col 6
+process row 15, nnz 4
+rank 1, start process nnz 5, row 15, col 7
+process row 15, nnz 5
+block 67 (3, 1) done at rank 1
+spawn to row block from 67 to 68.
+rank 1, globle_id 68, bi 3, bj 2, dependency 1
+receive x at block (5 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 1, globle_id 112, bi 5, bj 2, dependency 2
+rank 1 , process block himtx_id 7 at 112, block_nnz_id 0, start_nnz 28, end_nnz 32 
+rank 1, start process nnz 28, row 20, col 10
+process row 20, nnz 28
+rank 1, start process nnz 29, row 21, col 10
+process row 21, nnz 29
+rank 1, start process nnz 30, row 21, col 11
+process row 21, nnz 30
+rank 1, start process nnz 31, row 22, col 11
+process row 22, nnz 31
+block 112 (5, 2) done at rank 1
+spawn to row block from 112 to 113.
+rank 1, globle_id 113, bi 5, bj 3, dependency 1
+receive x at block (4 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 1, globle_id 90, bi 4, bj 2, dependency 2
+rank 1 , process block himtx_id 3 at 90, block_nnz_id 0, start_nnz 13, end_nnz 17 
+rank 1, start process nnz 13, row 17, col 8
+process row 17, nnz 13
+rank 1, start process nnz 14, row 18, col 8
+process row 18, nnz 14
+rank 1, start process nnz 15, row 19, col 8
+process row 19, nnz 15
+rank 1, start process nnz 16, row 19, col 10
+process row 19, nnz 16
+block 90 (4, 2) done at rank 1
+spawn to row block from 90 to 91.
+rank 1, globle_id 91, bi 4, bj 3, dependency 1
+receive x at block (3 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 1, globle_id 68, bi 3, bj 2, dependency 2
+block 68 (3, 2) done at rank 1
+spawn to row block from 68 to 69.
+rank 1, globle_id 69, bi 3, bj 3, dependency 1
+rank 1 , process block himtx_id 1 at 69, block_nnz_id 0, start_nnz 6, end_nnz 12 
+rank 1, start process nnz 6, row 12, col 12
+solve row 12, b 61.000000, left 54.000000, A 1.000000 
+row 12 done
+rank 1, start process nnz 7, row 13, col 13
+solve row 13, b 54.000000, left 50.000000, A 1.000000 
+row 13 done
+rank 1, start process nnz 8, row 14, col 13
+process row 14, nnz 8
+rank 1, start process nnz 9, row 14, col 14
+solve row 14, b 84.000000, left 76.000000, A 1.000000 
+row 14 done
+rank 1, start process nnz 10, row 15, col 14
+process row 15, nnz 10
+rank 1, start process nnz 11, row 15, col 15
+solve row 15, b 103.000000, left 100.000000, A 1.000000 
+row 15 done
+block 69 (3, 3) done at rank 1
+spawn all colum at 3: 465 443 421 399 377 355 333 311 289 267 245 223 201 179 157 135 113 91
+receive x at block (5 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 1, globle_id 113, bi 5, bj 3, dependency 2
+block 113 (5, 3) done at rank 1
+spawn to row block from 113 to 114.
+receive x at block (4 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 1, globle_id 91, bi 4, bj 3, dependency 2
+rank 1 , process block himtx_id 4 at 91, block_nnz_id 0, start_nnz 17, end_nnz 20 
+rank 1, start process nnz 17, row 16, col 14
+process row 16, nnz 17
+rank 1, start process nnz 18, row 16, col 15
+process row 16, nnz 18
+rank 1, start process nnz 19, row 17, col 15
+process row 17, nnz 19
+block 91 (4, 3) done at rank 1
+spawn to row block from 91 to 92.
+rank 1, globle_id 114, bi 5, bj 4, dependency 1
+rank 1, globle_id 92, bi 4, bj 4, dependency 1
+rank 1 , process block himtx_id 5 at 92, block_nnz_id 0, start_nnz 20, end_nnz 27 
+rank 1, start process nnz 20, row 16, col 16
+solve row 16, b 90.000000, left 84.000000, A 1.000000 
+row 16 done
+rank 1, start process nnz 21, row 17, col 16
+process row 17, nnz 21
+rank 1, start process nnz 22, row 17, col 17
+solve row 17, b 106.000000, left 101.000000, A 1.000000 
+row 17 done
+rank 1, start process nnz 23, row 18, col 17
+process row 18, nnz 23
+rank 1, start process nnz 24, row 18, col 18
+solve row 18, b 56.000000, left 46.000000, A 1.000000 
+row 18 done
+rank 1, start process nnz 25, row 19, col 18
+process row 19, nnz 25
+rank 1, start process nnz 26, row 19, col 19
+solve row 19, b 133.000000, left 127.000000, A 1.000000 
+row 19 done
+block 92 (4, 4) done at rank 1
+spawn all colum at 4: 466 444 422 400 378 356 334 312 290 268 246 224 202 180 158 136 114
+receive x at block (5 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 1, globle_id 114, bi 5, bj 4, dependency 2
+rank 1 , process block himtx_id 8 at 114, block_nnz_id 0, start_nnz 32, end_nnz 33 
+rank 1, start process nnz 32, row 20, col 19
+process row 20, nnz 32
+block 114 (5, 4) done at rank 1
+spawn to row block from 114 to 115.
+rank 1, globle_id 115, bi 5, bj 5, dependency 1
+rank 1 , process block himtx_id 9 at 115, block_nnz_id 0, start_nnz 33, end_nnz 42 
+rank 1, start process nnz 33, row 20, col 20
+solve row 20, b 64.000000, left 55.000000, A 1.000000 
+row 20 done
+rank 1, start process nnz 34, row 21, col 20
+process row 21, nnz 34
+rank 1, start process nnz 35, row 21, col 21
+solve row 21, b 165.000000, left 160.000000, A 1.000000 
+row 21 done
+rank 1, start process nnz 36, row 22, col 21
+process row 22, nnz 36
+rank 1, start process nnz 37, row 23, col 20
+process row 23, nnz 37
+rank 1, start process nnz 38, row 23, col 21
+process row 23, nnz 38
+rank 1, start process nnz 39, row 22, col 22
+solve row 22, b 173.000000, left 169.000000, A 1.000000 
+row 22 done
+rank 1, start process nnz 40, row 23, col 22
+process row 23, nnz 40
+rank 1, start process nnz 41, row 23, col 23
+solve row 23, b 89.000000, left 81.000000, A 1.000000 
+row 23 done
+block 115 (5, 5) done at rank 1
+spawn all colum at 5: 467 445 423 401 379 357 335 313 291 269 247 225 203 181 159 137
+matrix size = (85, 85) block size = (22, 22)rank 5, initial addr 330 -- 396receive x at block (17 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 5, globle_id 374, bi 17, bj 0, dependency 1
+block 374 (17, 0) done at rank 5
+spawn to row block from 374 to 375.
+rank 5, globle_id 375, bi 17, bj 1, dependency 1
+receive x at block (16 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 5, globle_id 352, bi 16, bj 0, dependency 1
+block 352 (16, 0) done at rank 5
+spawn to row block from 352 to 353.
+rank 5, globle_id 353, bi 16, bj 1, dependency 1
+receive x at block (15 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 5, globle_id 330, bi 15, bj 0, dependency 1
+block 330 (15, 0) done at rank 5
+spawn to row block from 330 to 331.
+rank 5, globle_id 331, bi 15, bj 1, dependency 1
+matrix size = (85, 85) block size = (22, 22)rank 7, initial addr 462 -- 484receive x at block (21 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 7, globle_id 462, bi 21, bj 0, dependency 1
+block 462 (21, 0) done at rank 7
+spawn to row block from 462 to 463.
+rank 7, globle_id 463, bi 21, bj 1, dependency 1
+matrix size = (85, 85) block size = (22, 22)rank 6, initial addr 396 -- 462receive x at block (20 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 6, globle_id 440, bi 20, bj 0, dependency 1
+block 440 (20, 0) done at rank 6
+spawn to row block from 440 to 441.
+rank 6, globle_id 441, bi 20, bj 1, dependency 1
+receive x at block (19 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 6, globle_id 418, bi 19, bj 0, dependency 1
+block 418 (19, 0) done at rank 6
+spawn to row block from 418 to 419.
+rank 6, globle_id 419, bi 19, bj 1, dependency 1
+receive x at block (18 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 6, globle_id 396, bi 18, bj 0, dependency 1
+block 396 (18, 0) done at rank 6
+spawn to row block from 396 to 397.
+rank 6, globle_id 397, bi 18, bj 1, dependency 1
+matrix size = (85, 85) block size = (22, 22)rank 4, initial addr 264 -- 330receive x at block (14 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 4, globle_id 308, bi 14, bj 0, dependency 1
+block 308 (14, 0) done at rank 4
+spawn to row block from 308 to 309.
+rank 4, globle_id 309, bi 14, bj 1, dependency 1
+receive x at block (13 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 4, globle_id 286, bi 13, bj 0, dependency 1
+block 286 (13, 0) done at rank 4
+spawn to row block from 286 to 287.
+rank 4, globle_id 287, bi 13, bj 1, dependency 1
+receive x at block (12 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 4, globle_id 264, bi 12, bj 0, dependency 1
+block 264 (12, 0) done at rank 4
+spawn to row block from 264 to 265.
+rank 4, globle_id 265, bi 12, bj 1, dependency 1
+matrix size = (85, 85) block size = (22, 22)rank 2, initial addr 132 -- 198receive x at block (8 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 2, globle_id 176, bi 8, bj 0, dependency 1
+block 176 (8, 0) done at rank 2
+spawn to row block from 176 to 177.
+rank 2, globle_id 177, bi 8, bj 1, dependency 1
+receive x at block (7 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 2, globle_id 154, bi 7, bj 0, dependency 1
+block 154 (7, 0) done at rank 2
+spawn to row block from 154 to 155.
+rank 2, globle_id 155, bi 7, bj 1, dependency 1
+receive x at block (6 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 2, globle_id 132, bi 6, bj 0, dependency 1
+block 132 (6, 0) done at rank 2
+spawn to row block from 132 to 133.
+rank 2, globle_id 133, bi 6, bj 1, dependency 1
+receive x at block (8 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 2, globle_id 177, bi 8, bj 1, dependency 2
+block 177 (8, 1) done at rank 2
+spawn to row block from 177 to 178.
+rank 2, globle_id 178, bi 8, bj 2, dependency 1
+receive x at block (7 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 2, globle_id 155, bi 7, bj 1, dependency 2
+block 155 (7, 1) done at rank 2
+spawn to row block from 155 to 156.
+rank 2, globle_id 156, bi 7, bj 2, dependency 1
+receive x at block (6 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 2, globle_id 133, bi 6, bj 1, dependency 2
+block 133 (6, 1) done at rank 2
+spawn to row block from 133 to 134.
+rank 2, globle_id 134, bi 6, bj 2, dependency 1
+receive x at block (8 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 2, globle_id 178, bi 8, bj 2, dependency 2
+block 178 (8, 2) done at rank 2
+spawn to row block from 178 to 179.
+rank 2, globle_id 179, bi 8, bj 3, dependency 1
+receive x at block (7 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 2, globle_id 156, bi 7, bj 2, dependency 2
+block 156 (7, 2) done at rank 2
+spawn to row block from 156 to 157.
+rank 2, globle_id 157, bi 7, bj 3, dependency 1
+receive x at block (6 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 2, globle_id 134, bi 6, bj 2, dependency 2
+block 134 (6, 2) done at rank 2
+spawn to row block from 134 to 135.
+rank 2, globle_id 135, bi 6, bj 3, dependency 1
+matrix size = (85, 85) block size = (22, 22)rank 3, initial addr 198 -- 264receive x at block (11 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 3, globle_id 242, bi 11, bj 0, dependency 1
+block 242 (11, 0) done at rank 3
+spawn to row block from 242 to 243.
+rank 3, globle_id 243, bi 11, bj 1, dependency 1
+receive x at block (10 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 3, globle_id 220, bi 10, bj 0, dependency 1
+block 220 (10, 0) done at rank 3
+spawn to row block from 220 to 221.
+rank 3, globle_id 221, bi 10, bj 1, dependency 1
+receive x at block (9 0) from (0 to 4) = 9.000000  2.000000  10.000000  6.000000 
+rank 3, globle_id 198, bi 9, bj 0, dependency 1
+block 198 (9, 0) done at rank 3
+spawn to row block from 198 to 199.
+rank 3, globle_id 199, bi 9, bj 1, dependency 1
+receive x at block (11 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 3, globle_id 243, bi 11, bj 1, dependency 2
+rank 3 , process block himtx_id 8 at 243, block_nnz_id 0, start_nnz 30, end_nnz 31 
+rank 3, start process nnz 30, row 44, col 5
+process row 44, nnz 30
+block 243 (11, 1) done at rank 3
+spawn to row block from 243 to 244.
+rank 3, globle_id 244, bi 11, bj 2, dependency 1
+receive x at block (10 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 3, globle_id 221, bi 10, bj 1, dependency 2
+block 221 (10, 1) done at rank 3
+spawn to row block from 221 to 222.
+rank 3, globle_id 222, bi 10, bj 2, dependency 1
+receive x at block (9 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 3, globle_id 199, bi 9, bj 1, dependency 2
+block 199 (9, 1) done at rank 3
+spawn to row block from 199 to 200.
+rank 3, globle_id 200, bi 9, bj 2, dependency 1
+receive x at block (11 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 3, globle_id 244, bi 11, bj 2, dependency 2
+block 244 (11, 2) done at rank 3
+spawn to row block from 244 to 245.
+rank 3, globle_id 245, bi 11, bj 3, dependency 1
+receive x at block (10 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 3, globle_id 222, bi 10, bj 2, dependency 2
+block 222 (10, 2) done at rank 3
+spawn to row block from 222 to 223.
+rank 3, globle_id 223, bi 10, bj 3, dependency 1
+receive x at block (9 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 3, globle_id 200, bi 9, bj 2, dependency 2
+block 200 (9, 2) done at rank 3
+spawn to row block from 200 to 201.
+rank 3, globle_id 201, bi 9, bj 3, dependency 1
+receive x at block (20 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 6, globle_id 441, bi 20, bj 1, dependency 2
+block 441 (20, 1) done at rank 6
+spawn to row block from 441 to 442.
+rank 6, globle_id 442, bi 20, bj 2, dependency 1
+receive x at block (19 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 6, globle_id 419, bi 19, bj 1, dependency 2
+block 419 (19, 1) done at rank 6
+spawn to row block from 419 to 420.
+rank 6, globle_id 420, bi 19, bj 2, dependency 1
+receive x at block (18 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 6, globle_id 397, bi 18, bj 1, dependency 2
+block 397 (18, 1) done at rank 6
+spawn to row block from 397 to 398.
+rank 6, globle_id 398, bi 18, bj 2, dependency 1
+receive x at block (20 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 6, globle_id 442, bi 20, bj 2, dependency 2
+block 442 (20, 2) done at rank 6
+spawn to row block from 442 to 443.
+rank 6, globle_id 443, bi 20, bj 3, dependency 1
+receive x at block (19 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 6, globle_id 420, bi 19, bj 2, dependency 2
+block 420 (19, 2) done at rank 6
+spawn to row block from 420 to 421.
+rank 6, globle_id 421, bi 19, bj 3, dependency 1
+receive x at block (18 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 6, globle_id 398, bi 18, bj 2, dependency 2
+block 398 (18, 2) done at rank 6
+spawn to row block from 398 to 399.
+rank 6, globle_id 399, bi 18, bj 3, dependency 1
+receive x at block (17 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 5, globle_id 375, bi 17, bj 1, dependency 2
+block 375 (17, 1) done at rank 5
+spawn to row block from 375 to 376.
+rank 5, globle_id 376, bi 17, bj 2, dependency 1
+receive x at block (16 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 5, globle_id 353, bi 16, bj 1, dependency 2
+block 353 (16, 1) done at rank 5
+spawn to row block from 353 to 354.
+rank 5, globle_id 354, bi 16, bj 2, dependency 1
+receive x at block (15 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 5, globle_id 331, bi 15, bj 1, dependency 2
+block 331 (15, 1) done at rank 5
+spawn to row block from 331 to 332.
+rank 5, globle_id 332, bi 15, bj 2, dependency 1
+receive x at block (17 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 5, globle_id 376, bi 17, bj 2, dependency 2
+block 376 (17, 2) done at rank 5
+spawn to row block from 376 to 377.
+rank 5, globle_id 377, bi 17, bj 3, dependency 1
+receive x at block (16 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 5, globle_id 354, bi 16, bj 2, dependency 2
+block 354 (16, 2) done at rank 5
+spawn to row block from 354 to 355.
+rank 5, globle_id 355, bi 16, bj 3, dependency 1
+receive x at block (15 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 5, globle_id 332, bi 15, bj 2, dependency 2
+block 332 (15, 2) done at rank 5
+spawn to row block from 332 to 333.
+rank 5, globle_id 333, bi 15, bj 3, dependency 1
+receive x at block (21 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 7, globle_id 463, bi 21, bj 1, dependency 2
+block 463 (21, 1) done at rank 7
+spawn to row block from 463 to 464.
+rank 7, globle_id 464, bi 21, bj 2, dependency 1
+receive x at block (21 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 7, globle_id 464, bi 21, bj 2, dependency 2
+block 464 (21, 2) done at rank 7
+spawn to row block from 464 to 465.
+rank 7, globle_id 465, bi 21, bj 3, dependency 1
+receive x at block (14 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 4, globle_id 309, bi 14, bj 1, dependency 2
+block 309 (14, 1) done at rank 4
+spawn to row block from 309 to 310.
+rank 4, globle_id 310, bi 14, bj 2, dependency 1
+receive x at block (13 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 4, globle_id 287, bi 13, bj 1, dependency 2
+block 287 (13, 1) done at rank 4
+spawn to row block from 287 to 288.
+rank 4, globle_id 288, bi 13, bj 2, dependency 1
+receive x at block (12 1) from (4 to 8) = 8.000000  9.000000  4.000000  4.000000 
+rank 4, globle_id 265, bi 12, bj 1, dependency 2
+block 265 (12, 1) done at rank 4
+spawn to row block from 265 to 266.
+rank 4, globle_id 266, bi 12, bj 2, dependency 1
+receive x at block (14 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 4, globle_id 310, bi 14, bj 2, dependency 2
+block 310 (14, 2) done at rank 4
+spawn to row block from 310 to 311.
+rank 4, globle_id 311, bi 14, bj 3, dependency 1
+receive x at block (13 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 4, globle_id 288, bi 13, bj 2, dependency 2
+block 288 (13, 2) done at rank 4
+spawn to row block from 288 to 289.
+rank 4, globle_id 289, bi 13, bj 3, dependency 1
+receive x at block (12 2) from (8 to 12) = 2.000000  1.000000  7.000000  10.000000 
+rank 4, globle_id 266, bi 12, bj 2, dependency 2
+block 266 (12, 2) done at rank 4
+spawn to row block from 266 to 267.
+rank 4, globle_id 267, bi 12, bj 3, dependency 1
+receive x at block (17 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 5, globle_id 377, bi 17, bj 3, dependency 2
+block 377 (17, 3) done at rank 5
+spawn to row block from 377 to 378.
+rank 5, globle_id 378, bi 17, bj 4, dependency 1
+receive x at block (8 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 2, globle_id 179, bi 8, bj 3, dependency 2
+block 179 (8, 3) done at rank 2
+spawn to row block from 179 to 180.
+rank 2, globle_id 180, bi 8, bj 4, dependency 1
+receive x at block (11 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 3, globle_id 245, bi 11, bj 3, dependency 2
+rank 3 , process block himtx_id 9 at 245, block_nnz_id 0, start_nnz 31, end_nnz 37 
+rank 3, start process nnz 31, row 44, col 12
+process row 44, nnz 31
+rank 3, start process nnz 32, row 44, col 13
+process row 44, nnz 32
+rank 3, start process nnz 33, row 45, col 13
+process row 45, nnz 33
+rank 3, start process nnz 34, row 46, col 13
+process row 46, nnz 34
+rank 3, start process nnz 35, row 46, col 14
+process row 46, nnz 35
+rank 3, start process nnz 36, row 47, col 14
+process row 47, nnz 36
+block 245 (11, 3) done at rank 3
+spawn to row block from 245 to 246.
+rank 3, globle_id 246, bi 11, bj 4, dependency 1
+receive x at block (7 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 2, globle_id 157, bi 7, bj 3, dependency 2
+rank 2 , process block himtx_id 3 at 157, block_nnz_id 0, start_nnz 15, end_nnz 16 
+rank 2, start process nnz 15, row 30, col 14
+process row 30, nnz 15
+block 157 (7, 3) done at rank 2
+spawn to row block from 157 to 158.
+rank 2, globle_id 158, bi 7, bj 4, dependency 1
+receive x at block (6 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 2, globle_id 135, bi 6, bj 3, dependency 2
+block 135 (6, 3) done at rank 2
+spawn to row block from 135 to 136.
+rank 2, globle_id 136, bi 6, bj 4, dependency 1
+receive x at block (14 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 4, globle_id 311, bi 14, bj 3, dependency 2
+block 311 (14, 3) done at rank 4
+spawn to row block from 311 to 312.
+rank 4, globle_id 312, bi 14, bj 4, dependency 1
+receive x at block (10 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 3, globle_id 223, bi 10, bj 3, dependency 2
+rank 3 , process block himtx_id 4 at 223, block_nnz_id 0, start_nnz 18, end_nnz 19 
+rank 3, start process nnz 18, row 43, col 12
+process row 43, nnz 18
+block 223 (10, 3) done at rank 3
+spawn to row block from 223 to 224.
+rank 3, globle_id 224, bi 10, bj 4, dependency 1
+receive x at block (9 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 3, globle_id 201, bi 9, bj 3, dependency 2
+block 201 (9, 3) done at rank 3
+spawn to row block from 201 to 202.
+rank 3, globle_id 202, bi 9, bj 4, dependency 1
+receive x at block (11 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 3, globle_id 246, bi 11, bj 4, dependency 2
+block 246 (11, 4) done at rank 3
+spawn to row block from 246 to 247.
+rank 3, globle_id 247, bi 11, bj 5, dependency 1
+receive x at block (8 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 2, globle_id 180, bi 8, bj 4, dependency 2
+block 180 (8, 4) done at rank 2
+spawn to row block from 180 to 181.
+rank 2, globle_id 181, bi 8, bj 5, dependency 1
+receive x at block (7 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 2, globle_id 158, bi 7, bj 4, dependency 2
+rank 2 , process block himtx_id 4 at 158, block_nnz_id 0, start_nnz 16, end_nnz 20 
+rank 2, start process nnz 16, row 28, col 16
+process row 28, nnz 16
+rank 2, start process nnz 17, row 28, col 17
+process row 28, nnz 17
+rank 2, start process nnz 18, row 29, col 16
+process row 29, nnz 18
+rank 2, start process nnz 19, row 30, col 16
+process row 30, nnz 19
+block 158 (7, 4) done at rank 2
+spawn to row block from 158 to 159.
+rank 2, globle_id 159, bi 7, bj 5, dependency 1
+receive x at block (6 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 2, globle_id 136, bi 6, bj 4, dependency 2
+rank 2 , process block himtx_id 0 at 136, block_nnz_id 0, start_nnz 0, end_nnz 4 
+rank 2, start process nnz 0, row 27, col 17
+process row 27, nnz 0
+rank 2, start process nnz 1, row 26, col 18
+process row 26, nnz 1
+rank 2, start process nnz 2, row 26, col 19
+process row 26, nnz 2
+rank 2, start process nnz 3, row 27, col 18
+process row 27, nnz 3
+block 136 (6, 4) done at rank 2
+spawn to row block from 136 to 137.
+rank 2, globle_id 137, bi 6, bj 5, dependency 1
+receive x at block (20 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 6, globle_id 443, bi 20, bj 3, dependency 2
+block 443 (20, 3) done at rank 6
+spawn to row block from 443 to 444.
+rank 6, globle_id 444, bi 20, bj 4, dependency 1
+receive x at block (19 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 6, globle_id 421, bi 19, bj 3, dependency 2
+block 421 (19, 3) done at rank 6
+spawn to row block from 421 to 422.
+rank 6, globle_id 422, bi 19, bj 4, dependency 1
+receive x at block (18 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 6, globle_id 399, bi 18, bj 3, dependency 2
+block 399 (18, 3) done at rank 6
+spawn to row block from 399 to 400.
+rank 6, globle_id 400, bi 18, bj 4, dependency 1
+receive x at block (16 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 5, globle_id 355, bi 16, bj 3, dependency 2
+block 355 (16, 3) done at rank 5
+spawn to row block from 355 to 356.
+rank 5, globle_id 356, bi 16, bj 4, dependency 1
+receive x at block (15 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 5, globle_id 333, bi 15, bj 3, dependency 2
+block 333 (15, 3) done at rank 5
+spawn to row block from 333 to 334.
+rank 5, globle_id 334, bi 15, bj 4, dependency 1
+receive x at block (13 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 4, globle_id 289, bi 13, bj 3, dependency 2
+block 289 (13, 3) done at rank 4
+spawn to row block from 289 to 290.
+rank 4, globle_id 290, bi 13, bj 4, dependency 1
+receive x at block (12 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 4, globle_id 267, bi 12, bj 3, dependency 2
+block 267 (12, 3) done at rank 4
+spawn to row block from 267 to 268.
+rank 4, globle_id 268, bi 12, bj 4, dependency 1
+receive x at block (10 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 3, globle_id 224, bi 10, bj 4, dependency 2
+block 224 (10, 4) done at rank 3
+spawn to row block from 224 to 225.
+rank 3, globle_id 225, bi 10, bj 5, dependency 1
+receive x at block (9 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 3, globle_id 202, bi 9, bj 4, dependency 2
+block 202 (9, 4) done at rank 3
+spawn to row block from 202 to 203.
+rank 3, globle_id 203, bi 9, bj 5, dependency 1
+receive x at block (11 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 3, globle_id 247, bi 11, bj 5, dependency 2
+block 247 (11, 5) done at rank 3
+spawn to row block from 247 to 248.
+rank 3, globle_id 248, bi 11, bj 6, dependency 1
+receive x at block (10 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 3, globle_id 225, bi 10, bj 5, dependency 2
+block 225 (10, 5) done at rank 3
+spawn to row block from 225 to 226.
+rank 3, globle_id 226, bi 10, bj 6, dependency 1
+receive x at block (9 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 3, globle_id 203, bi 9, bj 5, dependency 2
+block 203 (9, 5) done at rank 3
+spawn to row block from 203 to 204.
+rank 3, globle_id 204, bi 9, bj 6, dependency 1
+receive x at block (8 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 2, globle_id 181, bi 8, bj 5, dependency 2
+rank 2 , process block himtx_id 8 at 181, block_nnz_id 0, start_nnz 29, end_nnz 31 
+rank 2, start process nnz 29, row 32, col 23
+process row 32, nnz 29
+rank 2, start process nnz 30, row 33, col 23
+process row 33, nnz 30
+block 181 (8, 5) done at rank 2
+spawn to row block from 181 to 182.
+rank 2, globle_id 182, bi 8, bj 6, dependency 1
+receive x at block (7 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 2, globle_id 159, bi 7, bj 5, dependency 2
+rank 2 , process block himtx_id 5 at 159, block_nnz_id 0, start_nnz 20, end_nnz 22 
+rank 2, start process nnz 20, row 31, col 22
+process row 31, nnz 20
+rank 2, start process nnz 21, row 31, col 23
+process row 31, nnz 21
+block 159 (7, 5) done at rank 2
+spawn to row block from 159 to 160.
+rank 2, globle_id 160, bi 7, bj 6, dependency 1
+receive x at block (6 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 2, globle_id 137, bi 6, bj 5, dependency 2
+rank 2 , process block himtx_id 1 at 137, block_nnz_id 0, start_nnz 4, end_nnz 8 
+rank 2, start process nnz 4, row 24, col 20
+process row 24, nnz 4
+rank 2, start process nnz 5, row 25, col 20
+process row 25, nnz 5
+rank 2, start process nnz 6, row 24, col 23
+process row 24, nnz 6
+rank 2, start process nnz 7, row 26, col 20
+process row 26, nnz 7
+block 137 (6, 5) done at rank 2
+spawn to row block from 137 to 138.
+rank 2, globle_id 138, bi 6, bj 6, dependency 1
+rank 2 , process block himtx_id 2 at 138, block_nnz_id 0, start_nnz 8, end_nnz 15 
+rank 2, start process nnz 8, row 24, col 24
+solve row 24, b 139.000000, left 136.000000, A 1.000000 
+row 24 done
+rank 2, start process nnz 9, row 25, col 24
+process row 25, nnz 9
+rank 2, start process nnz 10, row 25, col 25
+solve row 25, b 53.000000, left 51.000000, A 1.000000 
+row 25 done
+rank 2, start process nnz 11, row 26, col 25
+process row 26, nnz 11
+rank 2, start process nnz 12, row 26, col 26
+solve row 26, b 142.000000, left 132.000000, A 1.000000 
+row 26 done
+rank 2, start process nnz 13, row 27, col 26
+process row 27, nnz 13
+rank 2, start process nnz 14, row 27, col 27
+solve row 27, b 162.000000, left 160.000000, A 1.000000 
+row 27 done
+block 138 (6, 6) done at rank 2
+spawn all colum at 6: 468 446 424 402 380 358 336 314 292 270 248 226 204 182 160
+receive x at block (8 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 2, globle_id 182, bi 8, bj 6, dependency 2
+rank 2 , process block himtx_id 9 at 182, block_nnz_id 0, start_nnz 31, end_nnz 34 
+rank 2, start process nnz 31, row 33, col 24
+process row 33, nnz 31
+rank 2, start process nnz 32, row 33, col 25
+process row 33, nnz 32
+rank 2, start process nnz 33, row 35, col 25
+process row 35, nnz 33
+block 182 (8, 6) done at rank 2
+spawn to row block from 182 to 183.
+receive x at block (21 3) from (12 to 16) = 7.000000  4.000000  8.000000  3.000000 
+rank 7, globle_id 465, bi 21, bj 3, dependency 2
+block 465 (21, 3) done at rank 7
+spawn to row block from 465 to 466.
+rank 7, globle_id 466, bi 21, bj 4, dependency 1
+receive x at block (21 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 7, globle_id 466, bi 21, bj 4, dependency 2
+block 466 (21, 4) done at rank 7
+spawn to row block from 466 to 467.
+rank 7, globle_id 467, bi 21, bj 5, dependency 1
+receive x at block (21 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 7, globle_id 467, bi 21, bj 5, dependency 2
+block 467 (21, 5) done at rank 7
+spawn to row block from 467 to 468.
+rank 7, globle_id 468, bi 21, bj 6, dependency 1
+receive x at block (17 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 5, globle_id 378, bi 17, bj 4, dependency 2
+block 378 (17, 4) done at rank 5
+spawn to row block from 378 to 379.
+rank 5, globle_id 379, bi 17, bj 5, dependency 1
+receive x at block (16 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 5, globle_id 356, bi 16, bj 4, dependency 2
+block 356 (16, 4) done at rank 5
+spawn to row block from 356 to 357.
+rank 5, globle_id 357, bi 16, bj 5, dependency 1
+receive x at block (15 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 5, globle_id 334, bi 15, bj 4, dependency 2
+block 334 (15, 4) done at rank 5
+spawn to row block from 334 to 335.
+rank 5, globle_id 335, bi 15, bj 5, dependency 1
+receive x at block (17 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 5, globle_id 379, bi 17, bj 5, dependency 2
+block 379 (17, 5) done at rank 5
+spawn to row block from 379 to 380.
+rank 5, globle_id 380, bi 17, bj 6, dependency 1
+receive x at block (16 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 5, globle_id 357, bi 16, bj 5, dependency 2
+block 357 (16, 5) done at rank 5
+spawn to row block from 357 to 358.
+rank 5, globle_id 358, bi 16, bj 6, dependency 1
+receive x at block (15 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 5, globle_id 335, bi 15, bj 5, dependency 2
+block 335 (15, 5) done at rank 5
+spawn to row block from 335 to 336.
+rank 5, globle_id 336, bi 15, bj 6, dependency 1
+receive x at block (20 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 6, globle_id 444, bi 20, bj 4, dependency 2
+block 444 (20, 4) done at rank 6
+spawn to row block from 444 to 445.
+rank 6, globle_id 445, bi 20, bj 5, dependency 1
+receive x at block (19 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 6, globle_id 422, bi 19, bj 4, dependency 2
+block 422 (19, 4) done at rank 6
+spawn to row block from 422 to 423.
+rank 6, globle_id 423, bi 19, bj 5, dependency 1
+receive x at block (18 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 6, globle_id 400, bi 18, bj 4, dependency 2
+block 400 (18, 4) done at rank 6
+spawn to row block from 400 to 401.
+rank 6, globle_id 401, bi 18, bj 5, dependency 1
+receive x at block (20 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 6, globle_id 445, bi 20, bj 5, dependency 2
+block 445 (20, 5) done at rank 6
+spawn to row block from 445 to 446.
+rank 6, globle_id 446, bi 20, bj 6, dependency 1
+receive x at block (19 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 6, globle_id 423, bi 19, bj 5, dependency 2
+block 423 (19, 5) done at rank 6
+spawn to row block from 423 to 424.
+rank 6, globle_id 424, bi 19, bj 6, dependency 1
+receive x at block (18 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 6, globle_id 401, bi 18, bj 5, dependency 2
+block 401 (18, 5) done at rank 6
+spawn to row block from 401 to 402.
+rank 6, globle_id 402, bi 18, bj 6, dependency 1
+receive x at block (14 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 4, globle_id 312, bi 14, bj 4, dependency 2
+block 312 (14, 4) done at rank 4
+spawn to row block from 312 to 313.
+rank 4, globle_id 313, bi 14, bj 5, dependency 1
+receive x at block (13 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 4, globle_id 290, bi 13, bj 4, dependency 2
+block 290 (13, 4) done at rank 4
+spawn to row block from 290 to 291.
+rank 4, globle_id 291, bi 13, bj 5, dependency 1
+receive x at block (12 4) from (16 to 20) = 6.000000  5.000000  10.000000  6.000000 
+rank 4, globle_id 268, bi 12, bj 4, dependency 2
+block 268 (12, 4) done at rank 4
+spawn to row block from 268 to 269.
+rank 4, globle_id 269, bi 12, bj 5, dependency 1
+receive x at block (14 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 4, globle_id 313, bi 14, bj 5, dependency 2
+block 313 (14, 5) done at rank 4
+spawn to row block from 313 to 314.
+rank 4, globle_id 314, bi 14, bj 6, dependency 1
+receive x at block (13 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 4, globle_id 291, bi 13, bj 5, dependency 2
+block 291 (13, 5) done at rank 4
+spawn to row block from 291 to 292.
+rank 4, globle_id 292, bi 13, bj 6, dependency 1
+receive x at block (12 5) from (20 to 24) = 9.000000  5.000000  4.000000  8.000000 
+rank 4, globle_id 269, bi 12, bj 5, dependency 2
+block 269 (12, 5) done at rank 4
+spawn to row block from 269 to 270.
+rank 4, globle_id 270, bi 12, bj 6, dependency 1
+receive x at block (11 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 3, globle_id 248, bi 11, bj 6, dependency 2
+block 248 (11, 6) done at rank 3
+spawn to row block from 248 to 249.
+rank 3, globle_id 249, bi 11, bj 7, dependency 1
+receive x at block (7 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 2, globle_id 160, bi 7, bj 6, dependency 2
+rank 2 , process block himtx_id 6 at 160, block_nnz_id 0, start_nnz 22, end_nnz 23 
+rank 2, start process nnz 22, row 28, col 27
+process row 28, nnz 22
+block 160 (7, 6) done at rank 2
+spawn to row block from 160 to 161.
+rank 2, globle_id 183, bi 8, bj 7, dependency 1
+rank 2, globle_id 161, bi 7, bj 7, dependency 1
+rank 2 , process block himtx_id 7 at 161, block_nnz_id 0, start_nnz 23, end_nnz 29 
+rank 2, start process nnz 23, row 28, col 28
+solve row 28, b 88.000000, left 79.000000, A 1.000000 
+row 28 done
+rank 2, start process nnz 24, row 29, col 28
+process row 29, nnz 24
+rank 2, start process nnz 25, row 29, col 29
+solve row 29, b 137.000000, left 135.000000, A 1.000000 
+row 29 done
+rank 2, start process nnz 26, row 30, col 29
+process row 30, nnz 26
+rank 2, start process nnz 27, row 30, col 30
+solve row 30, b 125.000000, left 122.000000, A 1.000000 
+row 30 done
+rank 2, start process nnz 28, row 31, col 31
+solve row 31, b 121.000000, left 112.000000, A 1.000000 
+row 31 done
+block 161 (7, 7) done at rank 2
+spawn all colum at 7: 469 447 425 403 381 359 337 315 293 271 249 227 205 183
+receive x at block (10 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 3, globle_id 226, bi 10, bj 6, dependency 2
+block 226 (10, 6) done at rank 3
+spawn to row block from 226 to 227.
+rank 3, globle_id 227, bi 10, bj 7, dependency 1
+receive x at block (20 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 6, globle_id 446, bi 20, bj 6, dependency 2
+block 446 (20, 6) done at rank 6
+spawn to row block from 446 to 447.
+rank 6, globle_id 447, bi 20, bj 7, dependency 1
+receive x at block (14 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 4, globle_id 314, bi 14, bj 6, dependency 2
+block 314 (14, 6) done at rank 4
+spawn to row block from 314 to 315.
+rank 4, globle_id 315, bi 14, bj 7, dependency 1
+receive x at block (13 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 4, globle_id 292, bi 13, bj 6, dependency 2
+block 292 (13, 6) done at rank 4
+spawn to row block from 292 to 293.
+rank 4, globle_id 293, bi 13, bj 7, dependency 1
+receive x at block (8 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 2, globle_id 183, bi 8, bj 7, dependency 2
+rank 2 , process block himtx_id 10 at 183, block_nnz_id 0, start_nnz 34, end_nnz 35 
+rank 2, start process nnz 34, row 32, col 31
+process row 32, nnz 34
+block 183 (8, 7) done at rank 2
+spawn to row block from 183 to 184.
+rank 2, globle_id 184, bi 8, bj 8, dependency 1
+rank 2 , process block himtx_id 11 at 184, block_nnz_id 0, start_nnz 35, end_nnz 43 
+rank 2, start process nnz 35, row 32, col 32
+solve row 32, b 131.000000, left 127.000000, A 1.000000 
+row 32 done
+rank 2, start process nnz 36, row 33, col 32
+process row 33, nnz 36
+rank 2, start process nnz 37, row 33, col 33
+solve row 33, b 86.000000, left 84.000000, A 1.000000 
+row 33 done
+rank 2, start process nnz 38, row 34, col 33
+process row 34, nnz 38
+rank 2, start process nnz 39, row 35, col 33
+process row 35, nnz 39
+rank 2, start process nnz 40, row 34, col 34
+solve row 34, b 13.000000, left 8.000000, A 1.000000 
+row 34 done
+rank 2, start process nnz 41, row 35, col 34
+process row 35, nnz 41
+rank 2, start process nnz 42, row 35, col 35
+solve row 35, b 44.000000, left 41.000000, A 1.000000 
+row 35 done
+block 184 (8, 8) done at rank 2
+spawn all colum at 8: 470 448 426 404 382 360 338 316 294 272 250 228 206
+receive x at block (9 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 3, globle_id 204, bi 9, bj 6, dependency 2
+rank 3 , process block himtx_id 0 at 204, block_nnz_id 0, start_nnz 0, end_nnz 4 
+rank 3, start process nnz 0, row 36, col 25
+process row 36, nnz 0
+rank 3, start process nnz 1, row 36, col 26
+process row 36, nnz 1
+rank 3, start process nnz 2, row 38, col 26
+process row 38, nnz 2
+rank 3, start process nnz 3, row 38, col 27
+process row 38, nnz 3
+block 204 (9, 6) done at rank 3
+spawn to row block from 204 to 205.
+rank 3, globle_id 205, bi 9, bj 7, dependency 1
+receive x at block (19 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 6, globle_id 424, bi 19, bj 6, dependency 2
+block 424 (19, 6) done at rank 6
+spawn to row block from 424 to 425.
+rank 6, globle_id 425, bi 19, bj 7, dependency 1
+receive x at block (17 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 5, globle_id 380, bi 17, bj 6, dependency 2
+block 380 (17, 6) done at rank 5
+spawn to row block from 380 to 381.
+rank 5, globle_id 381, bi 17, bj 7, dependency 1
+receive x at block (12 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 4, globle_id 270, bi 12, bj 6, dependency 2
+block 270 (12, 6) done at rank 4
+spawn to row block from 270 to 271.
+rank 4, globle_id 271, bi 12, bj 7, dependency 1
+receive x at block (11 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 3, globle_id 249, bi 11, bj 7, dependency 2
+rank 3 , process block himtx_id 10 at 249, block_nnz_id 0, start_nnz 37, end_nnz 38 
+rank 3, start process nnz 37, row 47, col 30
+process row 47, nnz 37
+block 249 (11, 7) done at rank 3
+spawn to row block from 249 to 250.
+rank 3, globle_id 250, bi 11, bj 8, dependency 1
+receive x at block (10 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 3, globle_id 227, bi 10, bj 7, dependency 2
+rank 3 , process block himtx_id 5 at 227, block_nnz_id 0, start_nnz 19, end_nnz 22 
+rank 3, start process nnz 19, row 41, col 29
+process row 41, nnz 19
+rank 3, start process nnz 20, row 42, col 29
+process row 42, nnz 20
+rank 3, start process nnz 21, row 42, col 30
+process row 42, nnz 21
+block 227 (10, 7) done at rank 3
+spawn to row block from 227 to 228.
+rank 3, globle_id 228, bi 10, bj 8, dependency 1
+receive x at block (9 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 3, globle_id 205, bi 9, bj 7, dependency 2
+rank 3 , process block himtx_id 1 at 205, block_nnz_id 0, start_nnz 4, end_nnz 7 
+rank 3, start process nnz 4, row 38, col 28
+process row 38, nnz 4
+rank 3, start process nnz 5, row 39, col 28
+process row 39, nnz 5
+rank 3, start process nnz 6, row 39, col 29
+process row 39, nnz 6
+block 205 (9, 7) done at rank 3
+spawn to row block from 205 to 206.
+rank 3, globle_id 206, bi 9, bj 8, dependency 1
+receive x at block (11 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 3, globle_id 250, bi 11, bj 8, dependency 2
+block 250 (11, 8) done at rank 3
+spawn to row block from 250 to 251.
+rank 3, globle_id 251, bi 11, bj 9, dependency 1
+receive x at block (10 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 3, globle_id 228, bi 10, bj 8, dependency 2
+block 228 (10, 8) done at rank 3
+spawn to row block from 228 to 229.
+rank 3, globle_id 229, bi 10, bj 9, dependency 1
+receive x at block (9 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 3, globle_id 206, bi 9, bj 8, dependency 2
+rank 3 , process block himtx_id 2 at 206, block_nnz_id 0, start_nnz 7, end_nnz 10 
+rank 3, start process nnz 7, row 36, col 35
+process row 36, nnz 7
+rank 3, start process nnz 8, row 37, col 34
+process row 37, nnz 8
+rank 3, start process nnz 9, row 37, col 35
+process row 37, nnz 9
+block 206 (9, 8) done at rank 3
+spawn to row block from 206 to 207.
+rank 3, globle_id 207, bi 9, bj 9, dependency 1
+rank 3 , process block himtx_id 3 at 207, block_nnz_id 0, start_nnz 10, end_nnz 18 
+rank 3, start process nnz 10, row 36, col 36
+solve row 36, b 45.000000, left 43.000000, A 1.000000 
+row 36 done
+rank 3, start process nnz 11, row 37, col 36
+process row 37, nnz 11
+rank 3, start process nnz 12, row 37, col 37
+solve row 37, b 83.000000, left 75.000000, A 1.000000 
+row 37 done
+rank 3, start process nnz 13, row 38, col 36
+process row 38, nnz 13
+rank 3, start process nnz 14, row 38, col 37
+process row 38, nnz 14
+rank 3, start process nnz 15, row 38, col 38
+solve row 38, b 220.000000, left 212.000000, A 1.000000 
+row 38 done
+rank 3, start process nnz 16, row 39, col 38
+process row 39, nnz 16
+rank 3, start process nnz 17, row 39, col 39
+solve row 39, b 150.000000, left 146.000000, A 1.000000 
+row 39 done
+block 207 (9, 9) done at rank 3
+spawn all colum at 9: 471 449 427 405 383 361 339 317 295 273 251 229
+receive x at block (11 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 3, globle_id 251, bi 11, bj 9, dependency 2
+block 251 (11, 9) done at rank 3
+spawn to row block from 251 to 252.
+receive x at block (10 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 3, globle_id 229, bi 10, bj 9, dependency 2
+rank 3 , process block himtx_id 6 at 229, block_nnz_id 0, start_nnz 22, end_nnz 25 
+rank 3, start process nnz 22, row 40, col 38
+process row 40, nnz 22
+rank 3, start process nnz 23, row 40, col 39
+process row 40, nnz 23
+rank 3, start process nnz 24, row 41, col 39
+process row 41, nnz 24
+block 229 (10, 9) done at rank 3
+spawn to row block from 229 to 230.
+rank 3, globle_id 252, bi 11, bj 10, dependency 1
+rank 3, globle_id 230, bi 10, bj 10, dependency 1
+rank 3 , process block himtx_id 7 at 230, block_nnz_id 0, start_nnz 25, end_nnz 30 
+rank 3, start process nnz 25, row 40, col 40
+solve row 40, b 93.000000, left 92.000000, A 1.000000 
+row 40 done
+rank 3, start process nnz 26, row 41, col 41
+solve row 41, b 12.000000, left 6.000000, A 1.000000 
+row 41 done
+rank 3, start process nnz 27, row 42, col 41
+process row 42, nnz 27
+rank 3, start process nnz 28, row 42, col 42
+solve row 42, b 79.000000, left 74.000000, A 1.000000 
+row 42 done
+rank 3, start process nnz 29, row 43, col 43
+solve row 43, b 30.000000, left 21.000000, A 1.000000 
+row 43 done
+block 230 (10, 10) done at rank 3
+spawn all colum at 10: 472 450 428 406 384 362 340 318 296 274 252
+receive x at block (11 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 3, globle_id 252, bi 11, bj 10, dependency 2
+rank 3 , process block himtx_id 11 at 252, block_nnz_id 0, start_nnz 38, end_nnz 39 
+rank 3, start process nnz 38, row 44, col 43
+process row 44, nnz 38
+block 252 (11, 10) done at rank 3
+spawn to row block from 252 to 253.
+rank 3, globle_id 253, bi 11, bj 11, dependency 1
+rank 3 , process block himtx_id 12 at 253, block_nnz_id 0, start_nnz 39, end_nnz 46 
+rank 3, start process nnz 39, row 44, col 44
+solve row 44, b 166.000000, left 165.000000, A 1.000000 
+row 44 done
+rank 3, start process nnz 40, row 45, col 44
+process row 45, nnz 40
+rank 3, start process nnz 41, row 45, col 45
+solve row 45, b 18.000000, left 16.000000, A 1.000000 
+row 45 done
+rank 3, start process nnz 42, row 46, col 45
+process row 46, nnz 42
+rank 3, start process nnz 43, row 46, col 46
+solve row 46, b 105.000000, left 104.000000, A 1.000000 
+row 46 done
+rank 3, start process nnz 44, row 47, col 46
+process row 47, nnz 44
+rank 3, start process nnz 45, row 47, col 47
+solve row 47, b 52.000000, left 45.000000, A 1.000000 
+row 47 done
+block 253 (11, 11) done at rank 3
+spawn all colum at 11: 473 451 429 407 385 363 341 319 297 275
+receive x at block (16 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 5, globle_id 358, bi 16, bj 6, dependency 2
+block 358 (16, 6) done at rank 5
+spawn to row block from 358 to 359.
+rank 5, globle_id 359, bi 16, bj 7, dependency 1
+receive x at block (15 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 5, globle_id 336, bi 15, bj 6, dependency 2
+block 336 (15, 6) done at rank 5
+spawn to row block from 336 to 337.
+rank 5, globle_id 337, bi 15, bj 7, dependency 1
+receive x at block (17 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 5, globle_id 381, bi 17, bj 7, dependency 2
+block 381 (17, 7) done at rank 5
+spawn to row block from 381 to 382.
+rank 5, globle_id 382, bi 17, bj 8, dependency 1
+receive x at block (16 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 5, globle_id 359, bi 16, bj 7, dependency 2
+block 359 (16, 7) done at rank 5
+spawn to row block from 359 to 360.
+rank 5, globle_id 360, bi 16, bj 8, dependency 1
+receive x at block (15 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 5, globle_id 337, bi 15, bj 7, dependency 2
+rank 5 , process block himtx_id 0 at 337, block_nnz_id 0, start_nnz 0, end_nnz 1 
+rank 5, start process nnz 0, row 63, col 31
+process row 63, nnz 0
+block 337 (15, 7) done at rank 5
+spawn to row block from 337 to 338.
+rank 5, globle_id 338, bi 15, bj 8, dependency 1
+receive x at block (17 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 5, globle_id 382, bi 17, bj 8, dependency 2
+block 382 (17, 8) done at rank 5
+spawn to row block from 382 to 383.
+rank 5, globle_id 383, bi 17, bj 9, dependency 1
+receive x at block (16 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 5, globle_id 360, bi 16, bj 8, dependency 2
+rank 5 , process block himtx_id 5 at 360, block_nnz_id 0, start_nnz 13, end_nnz 16 
+rank 5, start process nnz 13, row 64, col 33
+process row 64, nnz 13
+rank 5, start process nnz 14, row 64, col 34
+process row 64, nnz 14
+rank 5, start process nnz 15, row 65, col 34
+process row 65, nnz 15
+block 360 (16, 8) done at rank 5
+spawn to row block from 360 to 361.
+rank 5, globle_id 361, bi 16, bj 9, dependency 1
+receive x at block (15 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 5, globle_id 338, bi 15, bj 8, dependency 2
+rank 5 , process block himtx_id 1 at 338, block_nnz_id 0, start_nnz 1, end_nnz 4 
+rank 5, start process nnz 1, row 62, col 32
+process row 62, nnz 1
+rank 5, start process nnz 2, row 63, col 32
+process row 63, nnz 2
+rank 5, start process nnz 3, row 63, col 33
+process row 63, nnz 3
+block 338 (15, 8) done at rank 5
+spawn to row block from 338 to 339.
+rank 5, globle_id 339, bi 15, bj 9, dependency 1
+receive x at block (21 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 7, globle_id 468, bi 21, bj 6, dependency 2
+block 468 (21, 6) done at rank 7
+spawn to row block from 468 to 469.
+rank 7, globle_id 469, bi 21, bj 7, dependency 1
+receive x at block (21 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 7, globle_id 469, bi 21, bj 7, dependency 2
+block 469 (21, 7) done at rank 7
+spawn to row block from 469 to 470.
+rank 7, globle_id 470, bi 21, bj 8, dependency 1
+receive x at block (21 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 7, globle_id 470, bi 21, bj 8, dependency 2
+block 470 (21, 8) done at rank 7
+spawn to row block from 470 to 471.
+rank 7, globle_id 471, bi 21, bj 9, dependency 1
+receive x at block (21 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 7, globle_id 471, bi 21, bj 9, dependency 2
+block 471 (21, 9) done at rank 7
+spawn to row block from 471 to 472.
+rank 7, globle_id 472, bi 21, bj 10, dependency 1
+receive x at block (18 6) from (24 to 28) = 3.000000  2.000000  10.000000  2.000000 
+rank 6, globle_id 402, bi 18, bj 6, dependency 2
+block 402 (18, 6) done at rank 6
+spawn to row block from 402 to 403.
+rank 6, globle_id 403, bi 18, bj 7, dependency 1
+receive x at block (20 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 6, globle_id 447, bi 20, bj 7, dependency 2
+block 447 (20, 7) done at rank 6
+spawn to row block from 447 to 448.
+rank 6, globle_id 448, bi 20, bj 8, dependency 1
+receive x at block (19 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 6, globle_id 425, bi 19, bj 7, dependency 2
+block 425 (19, 7) done at rank 6
+spawn to row block from 425 to 426.
+rank 6, globle_id 426, bi 19, bj 8, dependency 1
+receive x at block (18 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 6, globle_id 403, bi 18, bj 7, dependency 2
+block 403 (18, 7) done at rank 6
+spawn to row block from 403 to 404.
+rank 6, globle_id 404, bi 18, bj 8, dependency 1
+receive x at block (20 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 6, globle_id 448, bi 20, bj 8, dependency 2
+block 448 (20, 8) done at rank 6
+spawn to row block from 448 to 449.
+rank 6, globle_id 449, bi 20, bj 9, dependency 1
+receive x at block (19 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 6, globle_id 426, bi 19, bj 8, dependency 2
+block 426 (19, 8) done at rank 6
+spawn to row block from 426 to 427.
+rank 6, globle_id 427, bi 19, bj 9, dependency 1
+receive x at block (18 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 6, globle_id 404, bi 18, bj 8, dependency 2
+block 404 (18, 8) done at rank 6
+spawn to row block from 404 to 405.
+rank 6, globle_id 405, bi 18, bj 9, dependency 1
+receive x at block (14 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 4, globle_id 315, bi 14, bj 7, dependency 2
+block 315 (14, 7) done at rank 4
+spawn to row block from 315 to 316.
+rank 4, globle_id 316, bi 14, bj 8, dependency 1
+receive x at block (13 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 4, globle_id 293, bi 13, bj 7, dependency 2
+block 293 (13, 7) done at rank 4
+spawn to row block from 293 to 294.
+rank 4, globle_id 294, bi 13, bj 8, dependency 1
+receive x at block (12 7) from (28 to 32) = 9.000000  2.000000  3.000000  9.000000 
+rank 4, globle_id 271, bi 12, bj 7, dependency 2
+rank 4 , process block himtx_id 0 at 271, block_nnz_id 0, start_nnz 0, end_nnz 1 
+rank 4, start process nnz 0, row 48, col 30
+process row 48, nnz 0
+block 271 (12, 7) done at rank 4
+spawn to row block from 271 to 272.
+rank 4, globle_id 272, bi 12, bj 8, dependency 1
+receive x at block (14 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 4, globle_id 316, bi 14, bj 8, dependency 2
+block 316 (14, 8) done at rank 4
+spawn to row block from 316 to 317.
+rank 4, globle_id 317, bi 14, bj 9, dependency 1
+receive x at block (13 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 4, globle_id 294, bi 13, bj 8, dependency 2
+block 294 (13, 8) done at rank 4
+spawn to row block from 294 to 295.
+rank 4, globle_id 295, bi 13, bj 9, dependency 1
+receive x at block (12 8) from (32 to 36) = 4.000000  2.000000  5.000000  3.000000 
+rank 4, globle_id 272, bi 12, bj 8, dependency 2
+block 272 (12, 8) done at rank 4
+spawn to row block from 272 to 273.
+rank 4, globle_id 273, bi 12, bj 9, dependency 1
+receive x at block (14 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 4, globle_id 317, bi 14, bj 9, dependency 2
+block 317 (14, 9) done at rank 4
+spawn to row block from 317 to 318.
+rank 4, globle_id 318, bi 14, bj 10, dependency 1
+receive x at block (17 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 5, globle_id 383, bi 17, bj 9, dependency 2
+rank 5 , process block himtx_id 9 at 383, block_nnz_id 0, start_nnz 26, end_nnz 30 
+rank 5, start process nnz 26, row 68, col 37
+process row 68, nnz 26
+rank 5, start process nnz 27, row 68, col 38
+process row 68, nnz 27
+rank 5, start process nnz 28, row 69, col 38
+process row 69, nnz 28
+rank 5, start process nnz 29, row 70, col 39
+process row 70, nnz 29
+block 383 (17, 9) done at rank 5
+spawn to row block from 383 to 384.
+rank 5, globle_id 384, bi 17, bj 10, dependency 1
+receive x at block (13 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 4, globle_id 295, bi 13, bj 9, dependency 2
+block 295 (13, 9) done at rank 4
+spawn to row block from 295 to 296.
+rank 4, globle_id 296, bi 13, bj 10, dependency 1
+receive x at block (20 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 6, globle_id 449, bi 20, bj 9, dependency 2
+block 449 (20, 9) done at rank 6
+spawn to row block from 449 to 450.
+rank 6, globle_id 450, bi 20, bj 10, dependency 1
+receive x at block (19 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 6, globle_id 427, bi 19, bj 9, dependency 2
+block 427 (19, 9) done at rank 6
+spawn to row block from 427 to 428.
+rank 6, globle_id 428, bi 19, bj 10, dependency 1
+receive x at block (18 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 6, globle_id 405, bi 18, bj 9, dependency 2
+block 405 (18, 9) done at rank 6
+spawn to row block from 405 to 406.
+rank 6, globle_id 406, bi 18, bj 10, dependency 1
+receive x at block (20 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 6, globle_id 450, bi 20, bj 10, dependency 2
+block 450 (20, 10) done at rank 6
+spawn to row block from 450 to 451.
+rank 6, globle_id 451, bi 20, bj 11, dependency 1
+receive x at block (19 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 6, globle_id 428, bi 19, bj 10, dependency 2
+block 428 (19, 10) done at rank 6
+spawn to row block from 428 to 429.
+rank 6, globle_id 429, bi 19, bj 11, dependency 1
+receive x at block (18 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 6, globle_id 406, bi 18, bj 10, dependency 2
+block 406 (18, 10) done at rank 6
+spawn to row block from 406 to 407.
+rank 6, globle_id 407, bi 18, bj 11, dependency 1
+receive x at block (20 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 6, globle_id 451, bi 20, bj 11, dependency 2
+block 451 (20, 11) done at rank 6
+spawn to row block from 451 to 452.
+rank 6, globle_id 452, bi 20, bj 12, dependency 1
+receive x at block (19 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 6, globle_id 429, bi 19, bj 11, dependency 2
+block 429 (19, 11) done at rank 6
+spawn to row block from 429 to 430.
+rank 6, globle_id 430, bi 19, bj 12, dependency 1
+receive x at block (18 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 6, globle_id 407, bi 18, bj 11, dependency 2
+block 407 (18, 11) done at rank 6
+spawn to row block from 407 to 408.
+rank 6, globle_id 408, bi 18, bj 12, dependency 1
+receive x at block (16 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 5, globle_id 361, bi 16, bj 9, dependency 2
+rank 5 , process block himtx_id 6 at 361, block_nnz_id 0, start_nnz 16, end_nnz 18 
+rank 5, start process nnz 16, row 65, col 37
+process row 65, nnz 16
+rank 5, start process nnz 17, row 66, col 37
+process row 66, nnz 17
+block 361 (16, 9) done at rank 5
+spawn to row block from 361 to 362.
+rank 5, globle_id 362, bi 16, bj 10, dependency 1
+receive x at block (15 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 5, globle_id 339, bi 15, bj 9, dependency 2
+block 339 (15, 9) done at rank 5
+spawn to row block from 339 to 340.
+rank 5, globle_id 340, bi 15, bj 10, dependency 1
+receive x at block (17 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 5, globle_id 384, bi 17, bj 10, dependency 2
+rank 5 , process block himtx_id 10 at 384, block_nnz_id 0, start_nnz 30, end_nnz 34 
+rank 5, start process nnz 30, row 69, col 40
+process row 69, nnz 30
+rank 5, start process nnz 31, row 70, col 40
+process row 70, nnz 31
+rank 5, start process nnz 32, row 70, col 41
+process row 70, nnz 32
+rank 5, start process nnz 33, row 71, col 41
+process row 71, nnz 33
+block 384 (17, 10) done at rank 5
+spawn to row block from 384 to 385.
+rank 5, globle_id 385, bi 17, bj 11, dependency 1
+receive x at block (16 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 5, globle_id 362, bi 16, bj 10, dependency 2
+block 362 (16, 10) done at rank 5
+spawn to row block from 362 to 363.
+rank 5, globle_id 363, bi 16, bj 11, dependency 1
+receive x at block (15 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 5, globle_id 340, bi 15, bj 10, dependency 2
+block 340 (15, 10) done at rank 5
+spawn to row block from 340 to 341.
+rank 5, globle_id 341, bi 15, bj 11, dependency 1
+receive x at block (17 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 5, globle_id 385, bi 17, bj 11, dependency 2
+block 385 (17, 11) done at rank 5
+spawn to row block from 385 to 386.
+rank 5, globle_id 386, bi 17, bj 12, dependency 1
+receive x at block (16 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 5, globle_id 363, bi 16, bj 11, dependency 2
+block 363 (16, 11) done at rank 5
+spawn to row block from 363 to 364.
+rank 5, globle_id 364, bi 16, bj 12, dependency 1
+receive x at block (15 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 5, globle_id 341, bi 15, bj 11, dependency 2
+block 341 (15, 11) done at rank 5
+spawn to row block from 341 to 342.
+rank 5, globle_id 342, bi 15, bj 12, dependency 1
+receive x at block (21 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 7, globle_id 472, bi 21, bj 10, dependency 2
+block 472 (21, 10) done at rank 7
+spawn to row block from 472 to 473.
+rank 7, globle_id 473, bi 21, bj 11, dependency 1
+receive x at block (21 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 7, globle_id 473, bi 21, bj 11, dependency 2
+block 473 (21, 11) done at rank 7
+spawn to row block from 473 to 474.
+rank 7, globle_id 474, bi 21, bj 12, dependency 1
+receive x at block (12 9) from (36 to 40) = 2.000000  8.000000  8.000000  4.000000 
+rank 4, globle_id 273, bi 12, bj 9, dependency 2
+block 273 (12, 9) done at rank 4
+spawn to row block from 273 to 274.
+rank 4, globle_id 274, bi 12, bj 10, dependency 1
+receive x at block (14 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 4, globle_id 318, bi 14, bj 10, dependency 2
+block 318 (14, 10) done at rank 4
+spawn to row block from 318 to 319.
+rank 4, globle_id 319, bi 14, bj 11, dependency 1
+receive x at block (13 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 4, globle_id 296, bi 13, bj 10, dependency 2
+rank 4 , process block himtx_id 4 at 296, block_nnz_id 0, start_nnz 14, end_nnz 16 
+rank 4, start process nnz 14, row 52, col 43
+process row 52, nnz 14
+rank 4, start process nnz 15, row 53, col 43
+process row 53, nnz 15
+block 296 (13, 10) done at rank 4
+spawn to row block from 296 to 297.
+rank 4, globle_id 297, bi 13, bj 11, dependency 1
+receive x at block (12 10) from (40 to 44) = 1.000000  6.000000  5.000000  9.000000 
+rank 4, globle_id 274, bi 12, bj 10, dependency 2
+rank 4 , process block himtx_id 1 at 274, block_nnz_id 0, start_nnz 1, end_nnz 6 
+rank 4, start process nnz 1, row 49, col 41
+process row 49, nnz 1
+rank 4, start process nnz 2, row 48, col 42
+process row 48, nnz 2
+rank 4, start process nnz 3, row 49, col 42
+process row 49, nnz 3
+rank 4, start process nnz 4, row 50, col 42
+process row 50, nnz 4
+rank 4, start process nnz 5, row 51, col 43
+process row 51, nnz 5
+block 274 (12, 10) done at rank 4
+spawn to row block from 274 to 275.
+rank 4, globle_id 275, bi 12, bj 11, dependency 1
+receive x at block (14 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 4, globle_id 319, bi 14, bj 11, dependency 2
+rank 4 , process block himtx_id 7 at 319, block_nnz_id 0, start_nnz 26, end_nnz 32 
+rank 4, start process nnz 26, row 56, col 44
+process row 56, nnz 26
+rank 4, start process nnz 27, row 56, col 45
+process row 56, nnz 27
+rank 4, start process nnz 28, row 57, col 45
+process row 57, nnz 28
+rank 4, start process nnz 29, row 57, col 46
+process row 57, nnz 29
+rank 4, start process nnz 30, row 57, col 47
+process row 57, nnz 30
+rank 4, start process nnz 31, row 58, col 47
+process row 58, nnz 31
+block 319 (14, 11) done at rank 4
+spawn to row block from 319 to 320.
+rank 4, globle_id 320, bi 14, bj 12, dependency 1
+receive x at block (13 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 4, globle_id 297, bi 13, bj 11, dependency 2
+block 297 (13, 11) done at rank 4
+spawn to row block from 297 to 298.
+rank 4, globle_id 298, bi 13, bj 12, dependency 1
+receive x at block (12 11) from (44 to 48) = 1.000000  2.000000  1.000000  7.000000 
+rank 4, globle_id 275, bi 12, bj 11, dependency 2
+rank 4 , process block himtx_id 2 at 275, block_nnz_id 0, start_nnz 6, end_nnz 8 
+rank 4, start process nnz 6, row 48, col 47
+process row 48, nnz 6
+rank 4, start process nnz 7, row 51, col 44
+process row 51, nnz 7
+block 275 (12, 11) done at rank 4
+spawn to row block from 275 to 276.
+rank 4, globle_id 276, bi 12, bj 12, dependency 1
+rank 4 , process block himtx_id 3 at 276, block_nnz_id 0, start_nnz 8, end_nnz 14 
+rank 4, start process nnz 8, row 48, col 48
+solve row 48, b 58.000000, left 49.000000, A 1.000000 
+row 48 done
+rank 4, start process nnz 9, row 49, col 49
+solve row 49, b 45.000000, left 43.000000, A 1.000000 
+row 49 done
+rank 4, start process nnz 10, row 50, col 48
+process row 50, nnz 10
+rank 4, start process nnz 11, row 50, col 49
+process row 50, nnz 11
+rank 4, start process nnz 12, row 50, col 50
+solve row 50, b 73.000000, left 71.000000, A 1.000000 
+row 50 done
+rank 4, start process nnz 13, row 51, col 51
+solve row 51, b 93.000000, left 86.000000, A 1.000000 
+row 51 done
+block 276 (12, 12) done at rank 4
+spawn all colum at 12: 474 452 430 408 386 364 342 320 298
+receive x at block (14 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 4, globle_id 320, bi 14, bj 12, dependency 2
+rank 4 , process block himtx_id 8 at 320, block_nnz_id 0, start_nnz 32, end_nnz 36 
+rank 4, start process nnz 32, row 56, col 51
+process row 56, nnz 32
+rank 4, start process nnz 33, row 58, col 48
+process row 58, nnz 33
+rank 4, start process nnz 34, row 59, col 48
+process row 59, nnz 34
+rank 4, start process nnz 35, row 59, col 50
+process row 59, nnz 35
+block 320 (14, 12) done at rank 4
+spawn to row block from 320 to 321.
+receive x at block (13 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 4, globle_id 298, bi 13, bj 12, dependency 2
+rank 4 , process block himtx_id 5 at 298, block_nnz_id 0, start_nnz 16, end_nnz 17 
+rank 4, start process nnz 16, row 53, col 51
+process row 53, nnz 16
+block 298 (13, 12) done at rank 4
+spawn to row block from 298 to 299.
+rank 4, globle_id 321, bi 14, bj 13, dependency 1
+rank 4, globle_id 299, bi 13, bj 13, dependency 1
+rank 4 , process block himtx_id 6 at 299, block_nnz_id 0, start_nnz 17, end_nnz 26 
+rank 4, start process nnz 17, row 52, col 52
+solve row 52, b 35.000000, left 27.000000, A 1.000000 
+row 52 done
+rank 4, start process nnz 18, row 53, col 52
+process row 53, nnz 18
+rank 4, start process nnz 19, row 53, col 53
+solve row 53, b 142.000000, left 137.000000, A 1.000000 
+row 53 done
+rank 4, start process nnz 20, row 54, col 52
+process row 54, nnz 20
+rank 4, start process nnz 21, row 54, col 53
+process row 54, nnz 21
+rank 4, start process nnz 22, row 55, col 53
+process row 55, nnz 22
+rank 4, start process nnz 23, row 54, col 54
+solve row 54, b 48.000000, left 44.000000, A 1.000000 
+row 54 done
+rank 4, start process nnz 24, row 55, col 54
+process row 55, nnz 24
+rank 4, start process nnz 25, row 55, col 55
+solve row 55, b 49.000000, left 47.000000, A 1.000000 
+row 55 done
+block 299 (13, 13) done at rank 4
+spawn all colum at 13: 475 453 431 409 387 365 343 321
+receive x at block (14 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 4, globle_id 321, bi 14, bj 13, dependency 2
+block 321 (14, 13) done at rank 4
+spawn to row block from 321 to 322.
+rank 4, globle_id 322, bi 14, bj 14, dependency 1
+rank 4 , process block himtx_id 9 at 322, block_nnz_id 0, start_nnz 36, end_nnz 43 
+rank 4, start process nnz 36, row 56, col 56
+solve row 56, b 38.000000, left 31.000000, A 1.000000 
+row 56 done
+rank 4, start process nnz 37, row 57, col 56
+process row 57, nnz 37
+rank 4, start process nnz 38, row 57, col 57
+solve row 57, b 78.000000, left 73.000000, A 1.000000 
+row 57 done
+rank 4, start process nnz 39, row 58, col 57
+process row 58, nnz 39
+rank 4, start process nnz 40, row 58, col 58
+solve row 58, b 72.000000, left 69.000000, A 1.000000 
+row 58 done
+rank 4, start process nnz 41, row 59, col 58
+process row 59, nnz 41
+rank 4, start process nnz 42, row 59, col 59
+solve row 59, b 108.000000, left 101.000000, A 1.000000 
+row 59 done
+block 322 (14, 14) done at rank 4
+spawn all colum at 14: 476 454 432 410 388 366 344
+receive x at block (20 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 6, globle_id 452, bi 20, bj 12, dependency 2
+rank 6 , process block himtx_id 8 at 452, block_nnz_id 0, start_nnz 32, end_nnz 33 
+rank 6, start process nnz 32, row 80, col 51
+process row 80, nnz 32
+block 452 (20, 12) done at rank 6
+spawn to row block from 452 to 453.
+rank 6, globle_id 453, bi 20, bj 13, dependency 1
+receive x at block (19 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 6, globle_id 430, bi 19, bj 12, dependency 2
+block 430 (19, 12) done at rank 6
+spawn to row block from 430 to 431.
+rank 6, globle_id 431, bi 19, bj 13, dependency 1
+receive x at block (18 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 6, globle_id 408, bi 18, bj 12, dependency 2
+rank 6 , process block himtx_id 0 at 408, block_nnz_id 0, start_nnz 0, end_nnz 2 
+rank 6, start process nnz 0, row 72, col 49
+process row 72, nnz 0
+rank 6, start process nnz 1, row 72, col 50
+process row 72, nnz 1
+block 408 (18, 12) done at rank 6
+spawn to row block from 408 to 409.
+rank 6, globle_id 409, bi 18, bj 13, dependency 1
+receive x at block (20 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 6, globle_id 453, bi 20, bj 13, dependency 2
+rank 6 , process block himtx_id 9 at 453, block_nnz_id 0, start_nnz 33, end_nnz 39 
+rank 6, start process nnz 33, row 80, col 53
+process row 80, nnz 33
+rank 6, start process nnz 34, row 80, col 55
+process row 80, nnz 34
+rank 6, start process nnz 35, row 81, col 55
+process row 81, nnz 35
+rank 6, start process nnz 36, row 82, col 54
+process row 82, nnz 36
+rank 6, start process nnz 37, row 82, col 55
+process row 82, nnz 37
+rank 6, start process nnz 38, row 83, col 54
+process row 83, nnz 38
+block 453 (20, 13) done at rank 6
+spawn to row block from 453 to 454.
+rank 6, globle_id 454, bi 20, bj 14, dependency 1
+receive x at block (19 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 6, globle_id 431, bi 19, bj 13, dependency 2
+block 431 (19, 13) done at rank 6
+spawn to row block from 431 to 432.
+rank 6, globle_id 432, bi 19, bj 14, dependency 1
+receive x at block (18 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 6, globle_id 409, bi 18, bj 13, dependency 2
+block 409 (18, 13) done at rank 6
+spawn to row block from 409 to 410.
+rank 6, globle_id 410, bi 18, bj 14, dependency 1
+receive x at block (20 14) from (56 to 60) = 7.000000  5.000000  3.000000  7.000000 
+rank 6, globle_id 454, bi 20, bj 14, dependency 2
+rank 6 , process block himtx_id 10 at 454, block_nnz_id 0, start_nnz 39, end_nnz 40 
+rank 6, start process nnz 39, row 80, col 56
+process row 80, nnz 39
+block 454 (20, 14) done at rank 6
+spawn to row block from 454 to 455.
+rank 6, globle_id 455, bi 20, bj 15, dependency 1
+receive x at block (19 14) from (56 to 60) = 7.000000  5.000000  3.000000  7.000000 
+rank 6, globle_id 432, bi 19, bj 14, dependency 2
+rank 6 , process block himtx_id 4 at 432, block_nnz_id 0, start_nnz 16, end_nnz 20 
+rank 6, start process nnz 16, row 79, col 56
+process row 79, nnz 16
+rank 6, start process nnz 17, row 79, col 57
+process row 79, nnz 17
+rank 6, start process nnz 18, row 78, col 58
+process row 78, nnz 18
+rank 6, start process nnz 19, row 79, col 58
+process row 79, nnz 19
+block 432 (19, 14) done at rank 6
+spawn to row block from 432 to 433.
+rank 6, globle_id 433, bi 19, bj 15, dependency 1
+receive x at block (18 14) from (56 to 60) = 7.000000  5.000000  3.000000  7.000000 
+rank 6, globle_id 410, bi 18, bj 14, dependency 2
+block 410 (18, 14) done at rank 6
+spawn to row block from 410 to 411.
+rank 6, globle_id 411, bi 18, bj 15, dependency 1
+receive x at block (17 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 5, globle_id 386, bi 17, bj 12, dependency 2
+rank 5 , process block himtx_id 11 at 386, block_nnz_id 0, start_nnz 34, end_nnz 35 
+rank 5, start process nnz 34, row 71, col 49
+process row 71, nnz 34
+block 386 (17, 12) done at rank 5
+spawn to row block from 386 to 387.
+rank 5, globle_id 387, bi 17, bj 13, dependency 1
+receive x at block (16 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 5, globle_id 364, bi 16, bj 12, dependency 2
+block 364 (16, 12) done at rank 5
+spawn to row block from 364 to 365.
+rank 5, globle_id 365, bi 16, bj 13, dependency 1
+receive x at block (15 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 5, globle_id 342, bi 15, bj 12, dependency 2
+rank 5 , process block himtx_id 2 at 342, block_nnz_id 0, start_nnz 4, end_nnz 5 
+rank 5, start process nnz 4, row 60, col 50
+process row 60, nnz 4
+block 342 (15, 12) done at rank 5
+spawn to row block from 342 to 343.
+rank 5, globle_id 343, bi 15, bj 13, dependency 1
+receive x at block (17 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 5, globle_id 387, bi 17, bj 13, dependency 2
+block 387 (17, 13) done at rank 5
+spawn to row block from 387 to 388.
+rank 5, globle_id 388, bi 17, bj 14, dependency 1
+receive x at block (16 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 5, globle_id 365, bi 16, bj 13, dependency 2
+block 365 (16, 13) done at rank 5
+spawn to row block from 365 to 366.
+rank 5, globle_id 366, bi 16, bj 14, dependency 1
+receive x at block (15 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 5, globle_id 343, bi 15, bj 13, dependency 2
+block 343 (15, 13) done at rank 5
+spawn to row block from 343 to 344.
+rank 5, globle_id 344, bi 15, bj 14, dependency 1
+receive x at block (17 14) from (56 to 60) = 7.000000  5.000000  3.000000  7.000000 
+rank 5, globle_id 388, bi 17, bj 14, dependency 2
+block 388 (17, 14) done at rank 5
+spawn to row block from 388 to 389.
+rank 5, globle_id 389, bi 17, bj 15, dependency 1
+receive x at block (16 14) from (56 to 60) = 7.000000  5.000000  3.000000  7.000000 
+rank 5, globle_id 366, bi 16, bj 14, dependency 2
+block 366 (16, 14) done at rank 5
+spawn to row block from 366 to 367.
+rank 5, globle_id 367, bi 16, bj 15, dependency 1
+receive x at block (15 14) from (56 to 60) = 7.000000  5.000000  3.000000  7.000000 
+rank 5, globle_id 344, bi 15, bj 14, dependency 2
+rank 5 , process block himtx_id 3 at 344, block_nnz_id 0, start_nnz 5, end_nnz 7 
+rank 5, start process nnz 5, row 60, col 58
+process row 60, nnz 5
+rank 5, start process nnz 6, row 60, col 59
+process row 60, nnz 6
+block 344 (15, 14) done at rank 5
+spawn to row block from 344 to 345.
+rank 5, globle_id 345, bi 15, bj 15, dependency 1
+rank 5 , process block himtx_id 4 at 345, block_nnz_id 0, start_nnz 7, end_nnz 13 
+rank 5, start process nnz 7, row 60, col 60
+solve row 60, b 108.000000, left 102.000000, A 1.000000 
+row 60 done
+rank 5, start process nnz 8, row 61, col 60
+process row 61, nnz 8
+rank 5, start process nnz 9, row 61, col 61
+solve row 61, b 29.000000, left 24.000000, A 1.000000 
+row 61 done
+rank 5, start process nnz 10, row 62, col 62
+solve row 62, b 21.000000, left 16.000000, A 1.000000 
+row 62 done
+rank 5, start process nnz 11, row 63, col 62
+process row 63, nnz 11
+rank 5, start process nnz 12, row 63, col 63
+solve row 63, b 90.000000, left 89.000000, A 1.000000 
+row 63 done
+block 345 (15, 15) done at rank 5
+spawn all colum at 15: 477 455 433 411 389 367
+receive x at block (17 15) from (60 to 64) = 6.000000  5.000000  5.000000  1.000000 
+rank 5, globle_id 389, bi 17, bj 15, dependency 2
+block 389 (17, 15) done at rank 5
+spawn to row block from 389 to 390.
+receive x at block (21 12) from (48 to 52) = 9.000000  2.000000  2.000000  7.000000 
+rank 7, globle_id 474, bi 21, bj 12, dependency 2
+block 474 (21, 12) done at rank 7
+spawn to row block from 474 to 475.
+rank 7, globle_id 475, bi 21, bj 13, dependency 1
+receive x at block (21 13) from (52 to 56) = 8.000000  5.000000  4.000000  2.000000 
+rank 7, globle_id 475, bi 21, bj 13, dependency 2
+rank 7 , process block himtx_id 0 at 475, block_nnz_id 0, start_nnz 0, end_nnz 2 
+rank 7, start process nnz 0, row 84, col 52
+process row 84, nnz 0
+rank 7, start process nnz 1, row 84, col 54
+process row 84, nnz 1
+block 475 (21, 13) done at rank 7
+spawn to row block from 475 to 476.
+rank 7, globle_id 476, bi 21, bj 14, dependency 1
+receive x at block (21 14) from (56 to 60) = 7.000000  5.000000  3.000000  7.000000 
+rank 7, globle_id 476, bi 21, bj 14, dependency 2
+block 476 (21, 14) done at rank 7
+spawn to row block from 476 to 477.
+rank 7, globle_id 477, bi 21, bj 15, dependency 1
+receive x at block (16 15) from (60 to 64) = 6.000000  5.000000  5.000000  1.000000 
+rank 5, globle_id 367, bi 16, bj 15, dependency 2
+rank 5 , process block himtx_id 7 at 367, block_nnz_id 0, start_nnz 18, end_nnz 19 
+rank 5, start process nnz 18, row 64, col 63
+process row 64, nnz 18
+block 367 (16, 15) done at rank 5
+spawn to row block from 367 to 368.
+rank 5, globle_id 390, bi 17, bj 16, dependency 1
+rank 5, globle_id 368, bi 16, bj 16, dependency 1
+rank 5 , process block himtx_id 8 at 368, block_nnz_id 0, start_nnz 19, end_nnz 26 
+rank 5, start process nnz 19, row 64, col 64
+solve row 64, b 64.000000, left 56.000000, A 1.000000 
+row 64 done
+rank 5, start process nnz 20, row 65, col 64
+process row 65, nnz 20
+rank 5, start process nnz 21, row 65, col 65
+solve row 65, b 142.000000, left 133.000000, A 1.000000 
+row 65 done
+rank 5, start process nnz 22, row 66, col 65
+process row 66, nnz 22
+rank 5, start process nnz 23, row 66, col 66
+solve row 66, b 79.000000, left 74.000000, A 1.000000 
+row 66 done
+rank 5, start process nnz 24, row 67, col 66
+process row 67, nnz 24
+rank 5, start process nnz 25, row 67, col 67
+solve row 67, b 44.000000, left 35.000000, A 1.000000 
+row 67 done
+block 368 (16, 16) done at rank 5
+spawn all colum at 16: 478 456 434 412 390
+receive x at block (20 15) from (60 to 64) = 6.000000  5.000000  5.000000  1.000000 
+rank 6, globle_id 455, bi 20, bj 15, dependency 2
+block 455 (20, 15) done at rank 6
+spawn to row block from 455 to 456.
+rank 6, globle_id 456, bi 20, bj 16, dependency 1
+receive x at block (21 15) from (60 to 64) = 6.000000  5.000000  5.000000  1.000000 
+rank 7, globle_id 477, bi 21, bj 15, dependency 2
+block 477 (21, 15) done at rank 7
+spawn to row block from 477 to 478.
+rank 7, globle_id 478, bi 21, bj 16, dependency 1
+receive x at block (21 16) from (64 to 68) = 8.000000  9.000000  5.000000  9.000000 
+rank 7, globle_id 478, bi 21, bj 16, dependency 2
+block 478 (21, 16) done at rank 7
+spawn to row block from 478 to 479.
+rank 7, globle_id 479, bi 21, bj 17, dependency 1
+receive x at block (21 17) from (68 to 72) = 9.000000  2.000000  2.000000  1.000000 
+rank 7, globle_id 479, bi 21, bj 17, dependency 2
+block 479 (21, 17) done at rank 7
+spawn to row block from 479 to 480.
+rank 7, globle_id 480, bi 21, bj 18, dependency 1
+receive x at block (17 16) from (64 to 68) = 8.000000  9.000000  5.000000  9.000000 
+rank 5, globle_id 390, bi 17, bj 16, dependency 2
+rank 5 , process block himtx_id 12 at 390, block_nnz_id 0, start_nnz 35, end_nnz 37 
+rank 5, start process nnz 35, row 68, col 66
+process row 68, nnz 35
+rank 5, start process nnz 36, row 68, col 67
+process row 68, nnz 36
+block 390 (17, 16) done at rank 5
+spawn to row block from 390 to 391.
+rank 5, globle_id 391, bi 17, bj 17, dependency 1
+rank 5 , process block himtx_id 13 at 391, block_nnz_id 0, start_nnz 37, end_nnz 44 
+rank 5, start process nnz 37, row 68, col 68
+solve row 68, b 207.000000, left 198.000000, A 1.000000 
+row 68 done
+rank 5, start process nnz 38, row 69, col 68
+process row 69, nnz 38
+rank 5, start process nnz 39, row 69, col 69
+solve row 69, b 107.000000, left 105.000000, A 1.000000 
+row 69 done
+rank 5, start process nnz 40, row 70, col 69
+process row 70, nnz 40
+rank 5, start process nnz 41, row 70, col 70
+solve row 70, b 77.000000, left 75.000000, A 1.000000 
+row 70 done
+rank 5, start process nnz 42, row 71, col 70
+process row 71, nnz 42
+rank 5, start process nnz 43, row 71, col 71
+solve row 71, b 37.000000, left 36.000000, A 1.000000 
+row 71 done
+block 391 (17, 17) done at rank 5
+spawn all colum at 17: 479 457 435 413
+receive x at block (19 15) from (60 to 64) = 6.000000  5.000000  5.000000  1.000000 
+rank 6, globle_id 433, bi 19, bj 15, dependency 2
+rank 6 , process block himtx_id 5 at 433, block_nnz_id 0, start_nnz 20, end_nnz 23 
+rank 6, start process nnz 20, row 77, col 60
+process row 77, nnz 20
+rank 6, start process nnz 21, row 77, col 61
+process row 77, nnz 21
+rank 6, start process nnz 22, row 78, col 60
+process row 78, nnz 22
+block 433 (19, 15) done at rank 6
+spawn to row block from 433 to 434.
+rank 6, globle_id 434, bi 19, bj 16, dependency 1
+receive x at block (18 15) from (60 to 64) = 6.000000  5.000000  5.000000  1.000000 
+rank 6, globle_id 411, bi 18, bj 15, dependency 2
+rank 6 , process block himtx_id 1 at 411, block_nnz_id 0, start_nnz 2, end_nnz 7 
+rank 6, start process nnz 2, row 72, col 60
+process row 72, nnz 2
+rank 6, start process nnz 3, row 72, col 61
+process row 72, nnz 3
+rank 6, start process nnz 4, row 73, col 61
+process row 73, nnz 4
+rank 6, start process nnz 5, row 75, col 60
+process row 75, nnz 5
+rank 6, start process nnz 6, row 75, col 61
+process row 75, nnz 6
+block 411 (18, 15) done at rank 6
+spawn to row block from 411 to 412.
+rank 6, globle_id 412, bi 18, bj 16, dependency 1
+receive x at block (20 16) from (64 to 68) = 8.000000  9.000000  5.000000  9.000000 
+rank 6, globle_id 456, bi 20, bj 16, dependency 2
+block 456 (20, 16) done at rank 6
+spawn to row block from 456 to 457.
+rank 6, globle_id 457, bi 20, bj 17, dependency 1
+receive x at block (19 16) from (64 to 68) = 8.000000  9.000000  5.000000  9.000000 
+rank 6, globle_id 434, bi 19, bj 16, dependency 2
+block 434 (19, 16) done at rank 6
+spawn to row block from 434 to 435.
+rank 6, globle_id 435, bi 19, bj 17, dependency 1
+receive x at block (18 16) from (64 to 68) = 8.000000  9.000000  5.000000  9.000000 
+rank 6, globle_id 412, bi 18, bj 16, dependency 2
+block 412 (18, 16) done at rank 6
+spawn to row block from 412 to 413.
+rank 6, globle_id 413, bi 18, bj 17, dependency 1
+receive x at block (20 17) from (68 to 72) = 9.000000  2.000000  2.000000  1.000000 
+rank 6, globle_id 457, bi 20, bj 17, dependency 2
+block 457 (20, 17) done at rank 6
+spawn to row block from 457 to 458.
+rank 6, globle_id 458, bi 20, bj 18, dependency 1
+receive x at block (19 17) from (68 to 72) = 9.000000  2.000000  2.000000  1.000000 
+rank 6, globle_id 435, bi 19, bj 17, dependency 2
+block 435 (19, 17) done at rank 6
+spawn to row block from 435 to 436.
+rank 6, globle_id 436, bi 19, bj 18, dependency 1
+receive x at block (18 17) from (68 to 72) = 9.000000  2.000000  2.000000  1.000000 
+rank 6, globle_id 413, bi 18, bj 17, dependency 2
+rank 6 , process block himtx_id 2 at 413, block_nnz_id 0, start_nnz 7, end_nnz 8 
+rank 6, start process nnz 7, row 72, col 71
+process row 72, nnz 7
+block 413 (18, 17) done at rank 6
+spawn to row block from 413 to 414.
+rank 6, globle_id 414, bi 18, bj 18, dependency 1
+rank 6 , process block himtx_id 3 at 414, block_nnz_id 0, start_nnz 8, end_nnz 16 
+rank 6, start process nnz 8, row 72, col 72
+solve row 72, b 118.000000, left 111.000000, A 1.000000 
+row 72 done
+rank 6, start process nnz 9, row 73, col 72
+process row 73, nnz 9
+rank 6, start process nnz 10, row 73, col 73
+solve row 73, b 53.000000, left 47.000000, A 1.000000 
+row 73 done
+rank 6, start process nnz 11, row 74, col 73
+process row 74, nnz 11
+rank 6, start process nnz 12, row 75, col 73
+process row 75, nnz 12
+rank 6, start process nnz 13, row 74, col 74
+solve row 74, b 21.000000, left 12.000000, A 1.000000 
+row 74 done
+rank 6, start process nnz 14, row 75, col 74
+process row 75, nnz 14
+rank 6, start process nnz 15, row 75, col 75
+solve row 75, b 146.000000, left 138.000000, A 1.000000 
+row 75 done
+block 414 (18, 18) done at rank 6
+spawn all colum at 18: 480 458 436
+receive x at block (20 18) from (72 to 76) = 7.000000  6.000000  9.000000  8.000000 
+rank 6, globle_id 458, bi 20, bj 18, dependency 2
+block 458 (20, 18) done at rank 6
+spawn to row block from 458 to 459.
+[terminate] rank 5
+[terminate] rank 4
+[terminate] rank 0
+receive x at block (21 18) from (72 to 76) = 7.000000  6.000000  9.000000  8.000000 
+rank 7, globle_id 480, bi 21, bj 18, dependency 2
+block 480 (21, 18) done at rank 7
+spawn to row block from 480 to 481.
+rank 7, globle_id 481, bi 21, bj 19, dependency 1
+receive x at block (21 19) from (76 to 80) = 10.000000  1.000000  6.000000  8.000000 
+rank 7, globle_id 481, bi 21, bj 19, dependency 2
+block 481 (21, 19) done at rank 7
+spawn to row block from 481 to 482.
+rank 7, globle_id 482, bi 21, bj 20, dependency 1
+receive x at block (21 20) from (80 to 84) = 2.000000  7.000000  6.000000  9.000000 
+rank 7, globle_id 482, bi 21, bj 20, dependency 2
+rank 7 , process block himtx_id 1 at 482, block_nnz_id 0, start_nnz 2, end_nnz 3 
+rank 7, start process nnz 2, row 84, col 83
+process row 84, nnz 2
+block 482 (21, 20) done at rank 7
+spawn to row block from 482 to 483.
+rank 7, globle_id 483, bi 21, bj 21, dependency 1
+rank 7 , process block himtx_id 2 at 483, block_nnz_id 0, start_nnz 3, end_nnz 4 
+rank 7, start process nnz 3, row 84, col 84
+solve row 84, b 131.000000, left 127.000000, A 1.000000 
+row 84 done
+block 483 (21, 21) done at rank 7
+[terminate] rank 7
+[terminate] rank 2
+receive x at block (19 18) from (72 to 76) = 7.000000  6.000000  9.000000  8.000000 
+rank 6, globle_id 436, bi 19, bj 18, dependency 2
+rank 6 , process block himtx_id 6 at 436, block_nnz_id 0, start_nnz 23, end_nnz 25 
+rank 6, start process nnz 23, row 76, col 75
+process row 76, nnz 23
+rank 6, start process nnz 24, row 77, col 75
+process row 77, nnz 24
+block 436 (19, 18) done at rank 6
+spawn to row block from 436 to 437.
+rank 6, globle_id 459, bi 20, bj 19, dependency 1
+rank 6, globle_id 437, bi 19, bj 19, dependency 1
+rank 6 , process block himtx_id 7 at 437, block_nnz_id 0, start_nnz 25, end_nnz 32 
+rank 6, start process nnz 25, row 76, col 76
+solve row 76, b 82.000000, left 72.000000, A 1.000000 
+row 76 done
+rank 6, start process nnz 26, row 77, col 76
+process row 77, nnz 26
+rank 6, start process nnz 27, row 77, col 77
+solve row 77, b 188.000000, left 187.000000, A 1.000000 
+row 77 done
+rank 6, start process nnz 28, row 78, col 77
+process row 78, nnz 28
+rank 6, start process nnz 29, row 78, col 78
+solve row 78, b 79.000000, left 73.000000, A 1.000000 
+row 78 done
+rank 6, start process nnz 30, row 79, col 78
+process row 79, nnz 30
+rank 6, start process nnz 31, row 79, col 79
+solve row 79, b 150.000000, left 142.000000, A 1.000000 
+row 79 done
+block 437 (19, 19) done at rank 6
+spawn all colum at 19: 481 459
+receive x at block (20 19) from (76 to 80) = 10.000000  1.000000  6.000000  8.000000 
+rank 6, globle_id 459, bi 20, bj 19, dependency 2
+rank 6 , process block himtx_id 11 at 459, block_nnz_id 0, start_nnz 40, end_nnz 41 
+rank 6, start process nnz 40, row 80, col 79
+process row 80, nnz 40
+block 459 (20, 19) done at rank 6
+spawn to row block from 459 to 460.
+rank 6, globle_id 460, bi 20, bj 20, dependency 1
+rank 6 , process block himtx_id 12 at 460, block_nnz_id 0, start_nnz 41, end_nnz 48 
+rank 6, start process nnz 41, row 80, col 80
+solve row 80, b 174.000000, left 172.000000, A 1.000000 
+row 80 done
+rank 6, start process nnz 42, row 81, col 80
+process row 81, nnz 42
+rank 6, start process nnz 43, row 81, col 81
+solve row 81, b 23.000000, left 16.000000, A 1.000000 
+row 81 done
+rank 6, start process nnz 44, row 82, col 81
+process row 82, nnz 44
+rank 6, start process nnz 45, row 82, col 82
+solve row 82, b 78.000000, left 72.000000, A 1.000000 
+row 82 done
+rank 6, start process nnz 46, row 83, col 82
+process row 83, nnz 46
+rank 6, start process nnz 47, row 83, col 83
+solve row 83, b 95.000000, left 86.000000, A 1.000000 
+row 83 done
+block 460 (20, 20) done at rank 6
+spawn all colum at 20: 482
+[terminate] rank 6
+[terminate] rank 1
+[terminate] rank 3

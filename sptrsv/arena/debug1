@@ -1,0 +1,117 @@
+[		rowblock sorting]: 0.000225754 s
+[		Set Kernel Ptrs]: 0.000010005 s
+[		Morton sorting]: 0.000195232 s
+[	HiCOO sorting (Morton)]: 0.000615497 s
+[Generate HiCOO]: 0.000029938 s
+Run ptiSparseMatrixMulVectorHiCOO:
+start row 0, end row 96[		rowblock sorting]: 0.000127960 s
+[		Set Kernel Ptrs]: 0.000004345 s
+[		Morton sorting]: 0.000165078 s
+[	HiCOO sorting (Morton)]: 0.000369800 s
+[Generate HiCOO]: 0.000024922 s
+matrix size = (85, 85) super block size = (6, 6)
+rank 0, initial addr 0 -- 36
+rank 0 , process block 0 in super block 0, block_nnz_id 0, start_nnz 0, end_nnz 7 
+rank 0 , process block 1 in super block 0, block_nnz_id 0, start_nnz 7, end_nnz 12 
+rank 0 , process block 2 in super block 0, block_nnz_id 0, start_nnz 12, end_nnz 18 
+rank 0 , process block 3 in super block 0, block_nnz_id 0, start_nnz 18, end_nnz 24 
+rank 0 , process block 4 in super block 0, block_nnz_id 0, start_nnz 24, end_nnz 26 
+rank 0 , process block 5 in super block 0, block_nnz_id 0, start_nnz 26, end_nnz 34 
+rank 0 , process block 6 in super block 0, block_nnz_id 0, start_nnz 34, end_nnz 40 
+rank 0 , process block 7 in super block 0, block_nnz_id 0, start_nnz 40, end_nnz 46 
+spawn all colum at 0: 6 12 18 24 30
+rank 0 , process block 8 in super block 1, block_nnz_id 0, start_nnz 46, end_nnz 47 
+rank 0 , process block 9 in super block 1, block_nnz_id 0, start_nnz 47, end_nnz 51 
+rank 0 , process block 10 in super block 1, block_nnz_id 0, start_nnz 51, end_nnz 54 
+rank 0 , process block 11 in super block 1, block_nnz_id 0, start_nnz 54, end_nnz 55 
+rank 0 , process block 12 in super block 1, block_nnz_id 0, start_nnz 55, end_nnz 59 
+rank 0 , process block 13 in super block 1, block_nnz_id 0, start_nnz 59, end_nnz 60 
+spawn to row block from 6 to 7.
+rank 0 , process block 24 in super block 3, block_nnz_id 0, start_nnz 105, end_nnz 106 
+rank 0 , process block 25 in super block 3, block_nnz_id 0, start_nnz 106, end_nnz 107 
+rank 0 , process block 26 in super block 3, block_nnz_id 0, start_nnz 107, end_nnz 113 
+spawn to row block from 12 to 13.
+no value: spawn to row block from 18 to 19.
+no value: spawn to row block from 24 to 25.
+no value: spawn to row block from 30 to 31.
+rank 0 , process block 14 in super block 2, block_nnz_id 0, start_nnz 60, end_nnz 67 
+rank 0 , process block 15 in super block 2, block_nnz_id 0, start_nnz 67, end_nnz 68 
+rank 0 , process block 16 in super block 2, block_nnz_id 0, start_nnz 68, end_nnz 77 
+rank 0 , process block 17 in super block 2, block_nnz_id 0, start_nnz 77, end_nnz 81 
+rank 0 , process block 18 in super block 2, block_nnz_id 0, start_nnz 81, end_nnz 85 
+rank 0 , process block 19 in super block 2, block_nnz_id 0, start_nnz 85, end_nnz 92 
+rank 0 , process block 20 in super block 2, block_nnz_id 0, start_nnz 92, end_nnz 96 
+rank 0 , process block 21 in super block 2, block_nnz_id 0, start_nnz 96, end_nnz 98 
+rank 0 , process block 22 in super block 2, block_nnz_id 0, start_nnz 98, end_nnz 99 
+rank 0 , process block 23 in super block 2, block_nnz_id 0, start_nnz 99, end_nnz 105 
+spawn all colum at 1: 13 19 25 31
+no value: spawn to row block from 25 to 26.
+no value: spawn to row block from 31 to 32.
+rank 0 , process block 27 in super block 4, block_nnz_id 0, start_nnz 113, end_nnz 115 
+rank 0 , process block 28 in super block 4, block_nnz_id 0, start_nnz 115, end_nnz 118 
+rank 0 , process block 29 in super block 4, block_nnz_id 0, start_nnz 118, end_nnz 119 
+rank 0 , process block 30 in super block 4, block_nnz_id 0, start_nnz 119, end_nnz 123 
+rank 0 , process block 31 in super block 4, block_nnz_id 0, start_nnz 123, end_nnz 126 
+rank 0 , process block 32 in super block 4, block_nnz_id 0, start_nnz 126, end_nnz 129 
+rank 0 , process block 33 in super block 4, block_nnz_id 0, start_nnz 129, end_nnz 130 
+spawn to row block from 13 to 14.
+rank 0 , process block 41 in super block 6, block_nnz_id 0, start_nnz 165, end_nnz 166 
+rank 0 , process block 42 in super block 6, block_nnz_id 0, start_nnz 166, end_nnz 167 
+spawn to row block from 19 to 20.
+no value: spawn to row block from 32 to 33.
+rank 0 , process block 34 in super block 5, block_nnz_id 0, start_nnz 130, end_nnz 138 
+rank 0 , process block 35 in super block 5, block_nnz_id 0, start_nnz 138, end_nnz 141 
+rank 0 , process block 36 in super block 5, block_nnz_id 0, start_nnz 141, end_nnz 149 
+rank 0 , process block 37 in super block 5, block_nnz_id 0, start_nnz 149, end_nnz 152 
+rank 0 , process block 38 in super block 5, block_nnz_id 0, start_nnz 152, end_nnz 157 
+rank 0 , process block 39 in super block 5, block_nnz_id 0, start_nnz 157, end_nnz 158 
+rank 0 , process block 40 in super block 5, block_nnz_id 0, start_nnz 158, end_nnz 165 
+spawn all colum at 2: 20 26 32
+rank 0 , process block 43 in super block 7, block_nnz_id 0, start_nnz 167, end_nnz 172 
+rank 0 , process block 44 in super block 7, block_nnz_id 0, start_nnz 172, end_nnz 174 
+rank 0 , process block 45 in super block 7, block_nnz_id 0, start_nnz 174, end_nnz 176 
+rank 0 , process block 46 in super block 7, block_nnz_id 0, start_nnz 176, end_nnz 182 
+rank 0 , process block 47 in super block 7, block_nnz_id 0, start_nnz 182, end_nnz 185 
+spawn to row block from 20 to 21.
+rank 0 , process block 56 in super block 9, block_nnz_id 0, start_nnz 221, end_nnz 224 
+rank 0 , process block 57 in super block 9, block_nnz_id 0, start_nnz 224, end_nnz 226 
+rank 0 , process block 58 in super block 9, block_nnz_id 0, start_nnz 226, end_nnz 230 
+rank 0 , process block 59 in super block 9, block_nnz_id 0, start_nnz 230, end_nnz 234 
+spawn to row block from 26 to 27.
+rank 0 , process block 48 in super block 8, block_nnz_id 0, start_nnz 185, end_nnz 191 
+rank 0 , process block 49 in super block 8, block_nnz_id 0, start_nnz 191, end_nnz 192 
+rank 0 , process block 50 in super block 8, block_nnz_id 0, start_nnz 192, end_nnz 201 
+rank 0 , process block 51 in super block 8, block_nnz_id 0, start_nnz 201, end_nnz 205 
+rank 0 , process block 52 in super block 8, block_nnz_id 0, start_nnz 205, end_nnz 212 
+rank 0 , process block 53 in super block 8, block_nnz_id 0, start_nnz 212, end_nnz 213 
+rank 0 , process block 54 in super block 8, block_nnz_id 0, start_nnz 213, end_nnz 215 
+rank 0 , process block 55 in super block 8, block_nnz_id 0, start_nnz 215, end_nnz 221 
+spawn all colum at 3: 27 33
+rank 0 , process block 60 in super block 10, block_nnz_id 0, start_nnz 234, end_nnz 235 
+rank 0 , process block 61 in super block 10, block_nnz_id 0, start_nnz 235, end_nnz 236 
+rank 0 , process block 62 in super block 10, block_nnz_id 0, start_nnz 236, end_nnz 238 
+rank 0 , process block 63 in super block 10, block_nnz_id 0, start_nnz 238, end_nnz 243 
+rank 0 , process block 64 in super block 10, block_nnz_id 0, start_nnz 243, end_nnz 247 
+rank 0 , process block 65 in super block 10, block_nnz_id 0, start_nnz 247, end_nnz 250 
+spawn to row block from 27 to 28.
+rank 0 , process block 73 in super block 12, block_nnz_id 0, start_nnz 284, end_nnz 285 
+rank 0 , process block 74 in super block 12, block_nnz_id 0, start_nnz 285, end_nnz 291 
+rank 0 , process block 75 in super block 12, block_nnz_id 0, start_nnz 291, end_nnz 292 
+rank 0 , process block 76 in super block 12, block_nnz_id 0, start_nnz 292, end_nnz 294 
+spawn to row block from 33 to 34.
+rank 0 , process block 66 in super block 11, block_nnz_id 0, start_nnz 250, end_nnz 257 
+rank 0 , process block 67 in super block 11, block_nnz_id 0, start_nnz 257, end_nnz 259 
+rank 0 , process block 68 in super block 11, block_nnz_id 0, start_nnz 259, end_nnz 266 
+rank 0 , process block 69 in super block 11, block_nnz_id 0, start_nnz 266, end_nnz 267 
+rank 0 , process block 70 in super block 11, block_nnz_id 0, start_nnz 267, end_nnz 275 
+rank 0 , process block 71 in super block 11, block_nnz_id 0, start_nnz 275, end_nnz 277 
+rank 0 , process block 72 in super block 11, block_nnz_id 0, start_nnz 277, end_nnz 284 
+spawn all colum at 4: 34
+rank 0 , process block 77 in super block 13, block_nnz_id 0, start_nnz 294, end_nnz 295 
+spawn to row block from 34 to 35.
+rank 0 , process block 78 in super block 14, block_nnz_id 0, start_nnz 295, end_nnz 302 
+rank 0 , process block 79 in super block 14, block_nnz_id 0, start_nnz 302, end_nnz 303 
+rank 0 , process block 80 in super block 14, block_nnz_id 0, start_nnz 303, end_nnz 304 
+[terminate] rank 0
+[time] rank 0 elapsed time: 0.000748893s
+result pass at rank 0
