@@ -46,44 +46,46 @@ using namespace std;
 // -----------------------------------------------------------------------
 // ARENA task struc
 // -----------------------------------------------------------------------
-int           ARENA_nodes;
-int           ARENA_root_task_id = -1;
-int           ARENA_local_rank;
-long long int ARENA_local_start;
-long long int ARENA_local_end;
-long long int ARENA_target_start;
-long long int ARENA_target_end;
-int           ARENA_target_id;
-int           ARENA_target_param;
-int           ARENA_target_more_from;
-int           ARENA_target_more_start;
-int           ARENA_target_more_length;
-int           ARENA_remote_start;
-int           ARENA_remote_end;
-int           ARENA_tag[ARENA_TAG_SIZE];
-long long int ARENA_root_start;
-long long int ARENA_root_end;
-int           ARENA_root_param;
-int           ARENA_num_spawn = 0;
-float**       ARENA_local_need_buff;
-float*        ARENA_recv_data_buffer;
-bool          ARENA_encounter_terminator = false;
-bool          ARENA_sent_task            = false;
-int           ARENA_terminate_count      = ARENA_TERMINATE_TRH;
-bool          ARENA_has_data_delivery    = false;
-bool          ARENA_data_depend_task     = false;
-bool          ARENA_skip_recv            = false;
-long int      ARENA_total_data_in        = 0;
-long int      ARENA_total_data_out       = 0;
-long int      ARENA_total_task_in        = 0;
-long int      ARENA_total_task_out       = 0;
-map<int, void (*)(long long int, long long int, int, bool, int)> ARENA_kernel_map;
+int         ARENA_nodes;
+int         ARENA_root_task_id = -1;
+int         ARENA_local_rank;
+int         ARENA_local_start;
+int         ARENA_local_end;
+int         ARENA_target_id;
+int         ARENA_target_start;
+int         ARENA_target_end;
+int         ARENA_target_param;
+int         ARENA_target_more_from;
+int         ARENA_target_more_start;
+int         ARENA_target_more_length;
+int         ARENA_remote_start;
+int         ARENA_remote_end;
+int         ARENA_tag[ARENA_TAG_SIZE];
+int         ARENA_root_start;
+int         ARENA_root_end;
+int         ARENA_root_param;
+int         ARENA_num_spawn = 0;
+float**     ARENA_local_need_buff;
+float*      ARENA_recv_data_buffer;
+void        ARENA_load_data(int, int, float*);
+void        ARENA_store_data(int, int, int, float*);
+bool        ARENA_encounter_terminator = false;
+bool        ARENA_sent_task            = false;
+int         ARENA_terminate_count      = ARENA_TERMINATE_TRH;
+bool        ARENA_has_data_delivery    = false;
+bool        ARENA_data_depend_task     = false;
+bool        ARENA_skip_recv            = false;
+long int    ARENA_total_data_in        = 0;
+long int    ARENA_total_data_out       = 0;
+long int    ARENA_total_task_in        = 0;
+long int    ARENA_total_task_out       = 0;
+map<int, void (*)(int, int, int, bool, int)> ARENA_kernel_map;
 
 float* window_buffer;
 struct  ARENA_tag_struct {
   int id;
-  long long int start;
-  long long int end;
+  int start;
+  int end;
   int param;
   int more_from;
   int more_start;
@@ -95,8 +97,8 @@ struct  ARENA_tag_struct {
       more_from(tag[4]),
       more_start(tag[5]),
       more_length(tag[6]){}
-  ARENA_tag_struct(int id,  long long int start,
-                   long long int end, int param,
+  ARENA_tag_struct(int id,  int start,
+                   int end, int param,
                    int more_from,
                    int more_start,
                    int more_length)
@@ -276,7 +278,7 @@ inline int ARENA_run() {
 // -----------------------------------------------------------------------
 // Register ARENA param.
 // -----------------------------------------------------------------------
-inline void ARENA_register_task(int t_TAG, void (*t_kernel)(long long int, long long int, int, bool, int), 
+inline void ARENA_register_task(int t_TAG, void (*t_kernel)(int, int, int, bool, int), 
                            bool t_root=false, int t_start = 0, int t_end = 0,
                            int t_param = -1) {
   if(t_root) {
@@ -288,7 +290,7 @@ inline void ARENA_register_task(int t_TAG, void (*t_kernel)(long long int, long 
   ARENA_kernel_map[t_TAG] = t_kernel;
 }
 
-inline void ARENA_set_local(long long int t_start, long long int t_end) {
+inline void ARENA_set_local(int t_start, int t_end) {
   ARENA_local_start = t_start;
   ARENA_local_end   = t_end;
 }
@@ -770,7 +772,7 @@ inline void ARENA_send_task_tag() {
 // -----------------------------------------------------------------------
 // Spawn a task.
 // -----------------------------------------------------------------------
-inline void ARENA_spawn_task(int t_id, long long int t_start, long long int t_end, int t_param,
+inline void ARENA_spawn_task(int t_id, int t_start, int t_end, int t_param,
                              float* t_more_start = 0, int t_more_length = 0) {
     ARENA_spawn[ARENA_num_spawn].id          = t_id;
     ARENA_spawn[ARENA_num_spawn].start       = t_start;
